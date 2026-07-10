@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>امتحان الكاتا | الاتحاد المصري للكاراتيه</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- ================= HEADER ================= -->
+
+        <header class="header">
+
+            <div class="logo-box">
+
+                <img src="assets/images/logo.png" alt="WKF Logo" onerror="this.style.display='none'">
+
+                <div class="title">
+
+                    <h1>امتحان الكاتا</h1>
+
+                    <span>الاتحاد المصري للكاراتيه</span>
+
+                </div>
+
+            </div>
+
+            <div class="exam-info">
+
+                <div class="timer-card">
+
+                    <i class="fa-regular fa-clock"></i>
+
+                    <div>
+
+                        <small>الوقت المتبقي</small>
+
+                        <h3 id="timer">
+                            00:00:00
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <button id="finishExam">
+
+                    إنهاء الامتحان
+
+                    <i class="fa-solid fa-flag-checkered"></i>
+
+                </button>
+
+            </div>
+
+        </header>
+
+        <!-- ================= Progress ================= -->
+
+        <section class="progress-section">
+
+            <div class="progress-top">
+
+                <h2>
+                    تقدم الامتحان
+                </h2>
+
+                <span id="progressPercent">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="progress-bar">
+
+                <div class="progress-fill"></div>
+
+            </div>
+
+            <div class="statistics">
+
+                <div class="stat success">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>صحيحة</span>
+
+                    <h3 id="correctCount">0</h3>
+
+                </div>
+
+                <div class="stat danger">
+
+                    <i class="fa-solid fa-circle-xmark"></i>
+
+                    <span>خاطئة</span>
+
+                    <h3 id="wrongCount">0</h3>
+
+                </div>
+
+                <div class="stat warning">
+
+                    <i class="fa-solid fa-circle"></i>
+
+                    <span>لم تتم</span>
+
+                    <h3 id="remainingCount">
+                        137
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= Quick Jump Palette ================= -->
+
+        <section class="palette-section">
+
+            <div class="palette-header">
+
+                <h3>الذهاب إلى سؤال</h3>
+
+                <span class="palette-info">
+                    <span id="currentQ">1</span> / <span id="totalQ">137</span>
+                </span>
+
+            </div>
+
+            <div class="palette-scroll">
+
+                <div id="questionPalette" class="question-palette">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= Question ================= -->
+
+        <main class="main-content">
+
+            <div class="question-card">
+
+                <div class="question-header">
+
+                    <span id="questionNumber">
+                        السؤال 1 من 137
+                    </span>
+
+                    <span class="question-badge" id="questionBadge">بدون إجابة</span>
+
+                </div>
+
+                <div class="question-body">
+
+                    <h2 id="questionArabic">
+                        ...
+                    </h2>
+
+                    <p id="questionEnglish">
+                        ...
+                    </p>
+
+                </div>
+
+                <div class="answers">
+
+                    <button class="answer-card" data-answer="true">
+
+                        <div class="radio"></div>
+
+                        <span>
+                            صحيح
+                        </span>
+
+                    </button>
+
+                    <button class="answer-card" data-answer="false">
+
+                        <div class="radio"></div>
+
+                        <span>
+                            خطأ
+                        </span>
+
+                    </button>
+
+                </div>
+
+                <div class="feedback hidden" id="feedbackCard">
+
+                    <div class="feedback-header">
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        <h3 id="feedbackTitle">
+                            إجابة صحيحة
+                        </h3>
+
+                    </div>
+
+                    <div class="feedback-body">
+
+                        <p>
+
+                            <strong>
+                                الإجابة الصحيحة :
+                            </strong>
+
+                            <span id="correctAnswer">
+
+                            </span>
+
+                        </p>
+
+                        <p id="explanation">
+
+                        </p>
+
+                        <div class="reference">
+
+                            <strong>
+                                المرجع :
+                            </strong>
+
+                            <span id="reference">
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Navigation -->
+
+            <div class="navigation">
+
+                <button id="previousQuestion" disabled>
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                    السابق
+
+                </button>
+
+                <div class="counter">
+
+                    <span id="currentQuestion">1</span>
+
+                    /
+
+                    <span id="totalQuestions">137</span>
+
+                </div>
+
+                <button id="nextQuestion">
+
+                    التالي
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                </button>
+
+            </div>
+
+        </main>
+
+        <!-- ================= Footer ================= -->
+
+        <footer class="footer">
+
+            <div class="footer-content">
+
+                <p>جميع الحقوق محفوظة &copy; <span id="currentYear"></span></p>
+
+                <p class="footer-name">Eng.Al-Tarek Attallah</p>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="js/timer.js"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
