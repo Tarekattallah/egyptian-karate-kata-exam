@@ -10,15 +10,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "ليس من متطلبات الاتحاد أن يرتدي جميع اللاعبين نفس العلامة التجارية للبدلة.",
+    "explanation": "لا يشترط الاتحاد الدولي أن يرتدي أعضاء فريق الكاتا العلامة التجارية نفسها لبدلة الكاراتيه.",
     "reference": {
       "article": "2.2.1.1",
-      "page": 4
+      "page": "4"
     }
   },
   {
     "id": 2,
-    "arabic": "إجمالي الوقت المسموح به لأداء الكاتا والبونكاي معاً هو ستة دقائق.",
+    "arabic": "إجمالى الوقت المسموح به لأداء الكاتا والبونكاى معا هو ستة دقائق.",
     "english": "The total time allowed for the Kata and BUNKAI demonstration combined, is six minutes.",
     "type": "boolean",
     "options": [
@@ -27,15 +27,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "الوقت الإجمالي لأداء الكاتا والبونكاي معاً هو 5 دقائق وليس 6.",
+    "explanation": "الحد الإجمالي لأداء الكاتا والبونكاي معاً هو 5 دقائق، وليس 6 دقائق.",
     "reference": {
       "article": "3.5.6",
-      "page": 7
+      "page": "7"
     }
   },
   {
     "id": 3,
-    "arabic": "في منافسات الكاتا التغيرات الطفيفة كما تم تعليمها في الأسلوب الخاص باللاعب (Ryu-ha) سيتم السماح بها.",
+    "arabic": "فى منافسات الكاتا التغيرات الطفيفة كما تم تعليمها فى الأسلوب الخاص باللاعب (Ryu-ha) سيتم السماح بها.",
     "english": "In Kata competition slight variations as taught by the contestant's style (Ryu-ha) are permitted.",
     "type": "boolean",
     "options": [
@@ -44,15 +44,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يُسمح بالتغيرات الطفيفة حسب الأسلوب الذي يمارسه اللاعب (Ryu-ha).",
+    "explanation": "تُقبل الاختلافات الطفيفة التي يقررها أسلوب اللاعب (ريو-ها).",
     "reference": {
       "article": "5.3.2",
-      "page": 11
+      "page": "11"
     }
   },
   {
     "id": 4,
-    "arabic": "النظارات الطبية ممنوعة في منافسات الكاتا.",
+    "arabic": "النظارات الطبية ممنوعة فى منافسات الكاتا.",
     "english": "Glasses are forbidden in Kata completion.",
     "type": "boolean",
     "options": [
@@ -61,32 +61,32 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "النظارات الموصوفة طبياً أو العدسات اللاصقة اللينة مسموحة على مسؤولية اللاعب.",
+    "explanation": "النظارات محظورة بوجه عام، لكن النظارات الرياضية الطبية أو العدسات اللاصقة اللينة مسموحة على مسؤولية اللاعب؛ لذلك العبارة المطلقة غير صحيحة.",
     "reference": {
       "article": "2.2.4",
-      "page": 5
+      "page": "5"
     }
   },
   {
     "id": 5,
-    "arabic": "يسمح بربط مطاطي واحد فقط لربط الشعر على شكل ذيل حصان واحد.",
+    "arabic": "يسمح برباط مطاطي واحد فقط ليربط الشعر على شكل ذيل حصان واحد.",
     "english": "Only one discreet rubber band on a single ponytail is permitted.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "يسمح بربطة شعر مطاطية غير ظاهرة أو اثنتين على شكل ذيل حصان واحد.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "يسمح برباط مطاطي غير ظاهر واحد أو اثنين على ذيل حصان واحد، وليس رباطاً واحداً فقط.",
     "reference": {
       "article": "2.2.6",
-      "page": 5
+      "page": "5"
     }
   },
   {
     "id": 6,
-    "arabic": "الحق في التوزيع على البوالت ينتقل نزولاً إلى اللاعبين الحاصلين على التصنيف الأقل في حالة غياب من له الحق في التوزيع.",
+    "arabic": "الحق فى التوزيع على البولات ينتقل نزولا إلى اللاعبين الحاصلين على التصنيف الأقل فى حالة غياب من له الحق فى التوزيع.",
     "english": "The right to seeding does down flow to lower places in the absence of Athletes eligible for seeding.",
     "type": "boolean",
     "options": [
@@ -95,10 +95,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: حق التوزيع (السيدنج) للاعبين الأربعة الأعلى تصنيفاً لا ينتقل إلى لاعبين أقل تصنيفاً في حالة غيابهم؛ هذا مبدأ عام في تنظيم القرعة (المادة 3.4.1) ولا يوجد نص يسمح بانتقال الحق نزولاً.",
+    "explanation": "يُوزع أعلى أربعة لاعبين مصنفين من الحاضرين؛ ولا ينتقل حق التوزيع تلقائياً إلى مراكز أدنى بسبب الغياب.",
     "reference": {
       "article": "3.4.1",
-      "page": 7
+      "page": "7"
     }
   },
   {
@@ -112,15 +112,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "توجد أنظمة متعددة: الإقصاء مع الترضية، دوري المجموعات، نظام المجموعتين.",
+    "explanation": "يمكن تنظيم الكاتا بالإقصاء مع الترضية، أو دوري المجموعات ثم الإقصاء، أو دوري المجموعتين.",
     "reference": {
       "article": "3.3.1",
-      "page": 7
+      "page": "6-7"
     }
   },
   {
     "id": 8,
-    "arabic": "في كل أنظمة المنافسات لايمكن أن يزيد عدد اللاعبين عن ٨.",
+    "arabic": "في كل أنظمة المنافسات لا يمكن أن يزيد عدد اللاعبين عن 8.",
     "english": "In all competition formats, the number of Athletes cannot exceed 8.",
     "type": "boolean",
     "options": [
@@ -129,32 +129,32 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: لا يوجد حد أقصى ثابت وهو 8 لاعبين في كل أنظمة المنافسات؛ عدد اللاعبين في كل مجموعة يختلف حسب نظام المنافسة وعدد المشاركين الكلي (جدول توزيع المجموعات في المادة 3.7.9 يوضح مجموعات تصل حتى 8 لاعبين كحد أقصى في نظام دوري المجموعات فقط، وليس كقاعدة عامة لكل الأنظمة).",
+    "explanation": "قد يصل عدد اللاعبين إلى 32 في نظام دوري المجموعات، ولذلك لا يقتصر العدد في جميع الأنظمة على 8.",
     "reference": {
       "article": "3.7.9",
-      "page": 9
+      "page": "9"
     }
   },
   {
     "id": 9,
-    "arabic": "يجب على القضاة أن ينظروا إلى الأساسيات الصحيحة طبقاً للمدرسة المؤداة.",
+    "arabic": "يجب على القضاة أن ينظروا إلى الأساسيات الصحيحة طبقا للمدرسة المؤداة.",
     "english": "Judges should look for correct Kihon of the school being demonstrated.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "من معايير التقييم الأساسيات الصحيحة (Kihon) للأسلوب المؤدى.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "المعيار هو التوافق مع أساسيات أسلوب اللاعب (ريو-ها)، وليس مدرسة عامة منفصلة عن أسلوبه.",
     "reference": {
-      "article": "5.6",
-      "page": 12
+      "article": "5.6.7",
+      "page": "12"
     }
   },
   {
     "id": 10,
-    "arabic": "تتكون مباريات الفرق من منافسة بين فرق مكونة من 3 أو 4 لاعبين بحيث يتنافس 3 لاعبين في كل مرة.",
+    "arabic": "تتكون مباريات الفرق من منافسة بين فرق مكونة من 3 أو 4 لاعبين، يتنافس 3 منهم في كل مرة.",
     "english": "Team matches consist of competition between teams of 3 or 4 Athletes of which 3 compete at the time.",
     "type": "boolean",
     "options": [
@@ -163,15 +163,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يتكون فريق الكاتا من 3 أو 4 لاعبين، يتنافس 3 منهم في كل دور.",
+    "explanation": "يتكون فريق الكاتا من 3 أو 4 لاعبين، ويشارك 3 منهم في كل دور.",
     "reference": {
       "article": "3.3.2 / 3.5.1",
-      "page": 7
+      "page": "7"
     }
   },
   {
     "id": 11,
-    "arabic": "التوافق هو التطابق في الأداء مع أساسيات الأسلوب (Ryu-ha) المستخدم للكاتا.",
+    "arabic": "التوافق هو الاتساق في أداء أساسيات الأسلوب (Ryu-ha) المستخدم في الكاتا.",
     "english": "Conformance is a consistency in the performance of the Kihon of the style (Ryu-ha) in the Kata.",
     "type": "boolean",
     "options": [
@@ -180,15 +180,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "التوافق هو التطابق في أداء الأساسيات وفقاً للأسلوب المستخدم.",
+    "explanation": "التوافق يعني الاتساق في أداء أساسيات الأسلوب (ريو-ها) المستخدم في الكاتا.",
     "reference": {
-      "article": "5.6",
-      "page": 12
+      "article": "5.6.7",
+      "page": "12"
     }
   },
   {
     "id": 12,
-    "arabic": "إذا حدث أي تعارض بين رقم وإسم الكاتا المسجلة للأداء فسيتم العمل بإسم الكاتا كما هي في قائمة الإتحاد الدولي للكاراتيه الرسمية.",
+    "arabic": "إذا حدث أى تعارض بين رقم وإسم الكاتا المسجلة للأداء فسيتم العمل بإسم الكاتا كما هى فى قائمة الإتحاد الدولى للكاراتيه الرسمية للكاتا.",
     "english": "Should there be any discrepancy between the number and the name of the Kata registered for performance, the name, as per the official WKF Kata list will prevail.",
     "type": "boolean",
     "options": [
@@ -197,67 +197,67 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "عند التعارض بين الرقم والإسم، يُعتبر الرقم هو الكاتا المسجلة.",
+    "explanation": "عند التعارض بين رقم الكاتا واسمها، يكون الرقم الوارد في القائمة الرسمية هو المعتمد.",
     "reference": {
       "article": "6.3",
-      "page": 14
+      "page": "14"
     }
   },
   {
     "id": 13,
-    "arabic": "عندما يتكون الفريق من 4 لاعبين فيمكن استخدام كل الـ 4 لاعبين في أي دور.",
+    "arabic": "عندما يتكون الفريق من 4 لاعبين يمكن استخدام اللاعبين الأربعة في أي دور.",
     "english": "When a team has 4 competitors, all 4 may be used for any round.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "عندما يكون الفريق مكوناً من 4 لاعبين، يمكن استخدام أي منهم في أي دور.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "إذا كان الفريق من 4 لاعبين فيُختار أي 3 منهم فقط للمشاركة في الدور.",
     "reference": {
       "article": "3.5.1",
-      "page": 7
+      "page": "7"
     }
   },
   {
     "id": 14,
-    "arabic": "إعطاء أوامر لبداية ونهاية الكاتا من أحد أعضاء الفريق لايعتبر مؤثراً خارجياً.",
+    "arabic": "إعطاء أوامر لبداية ونهاية الكاتا من أحد أعضاء الفريق لايعتبر مؤثرا خارجيا.",
     "english": "Giving a command to start and finish the Kata by a team member is not considered to be an external cue.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "أوامر الفريق الداخلية لا تعتبر مؤثرات صوتية خارجية.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "أوامر البدء أو الإيقاف الصادرة من عضو بالفريق تُعد مؤثراً صوتياً خارجياً وخطأً.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.5",
+      "page": "12"
     }
   },
   {
     "id": 15,
-    "arabic": "يجب أن يكون سطح البساط بلون واحد في منافسات الكاتا.",
+    "arabic": "يجب أن يكون سطح البساط بلون واحد فى منافسات الكاتا.",
     "english": "The mats must form a uniformed coloured surface for Kata competition.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "لا يوجد نص صريح في هذا القانون يذكر اشتراط لون موحد لسطح البساط في منافسات الكاتا تحديداً (المادة 1 تصف فقط أبعاد ومساحة الأمان)، وإن كان هذا معياراً معتمداً عموماً في مناطق منافسات الاتحاد الدولي للكاراتيه.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "القانون يحدد بساطاً معتمداً ومقاساً محدداً، ولا يشترط أن يكون سطح البساط كله بلون موحد.",
     "reference": {
-      "article": "عام (غير منصوص عليه صراحة في هذا القانون)",
-      "page": 3
+      "article": "1.1",
+      "page": "3"
     }
   },
   {
     "id": 16,
-    "arabic": "ينبغي على القضاة أن ينظروا للأساسيات الصحيحة طبقاً لأسلوب اللاعب (Ryu-ha) الذي يتم أداؤه.",
-    "english": "Judges should look for correct Kihon of the Athlete's style (Ryu-ha) being demonstrated.",
+    "arabic": "ينبغى على القضاة أن ينظروا للأساسيات الصحيحة طبقا لأسلوب اللاعب (Ryu-ha) الذى يتم أداؤه.",
+    "english": "Judges should look for correct Kihon of the Athlete ́s style (Ryu-ha) being demonstrated.",
     "type": "boolean",
     "options": [
       "صحيح",
@@ -265,32 +265,32 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "من معايير التقييم الأساسيات الصحيحة وفقاً لأسلوب اللاعب.",
+    "explanation": "ينظر القضاة إلى صحة واتساق أساسيات أسلوب اللاعب (ريو-ها) المؤدى.",
     "reference": {
-      "article": "5.6",
-      "page": 12
+      "article": "5.6.7",
+      "page": "12"
     }
   },
   {
     "id": 17,
-    "arabic": "يمكن أن يتم تغيير طاقم القضاة للمجموعة في أي دور واحد.",
+    "arabic": "يمكن أن يتم تغيير طاقم القضاة للمجموعة فى أى دور واحد.",
     "english": "The panel of Judges can be changed in a group for any single round.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "يمكن تغيير طاقم القضاة للمجموعة في أي دور.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "يجب استخدام طاقم القضاة نفسه لكل لاعبي المجموعة في الدور الواحد؛ فلا يُغيَّر داخل المجموعة أثناء ذلك الدور.",
     "reference": {
-      "article": "5.1.1",
-      "page": 10
+      "article": "4.1 / 4.3",
+      "page": "10"
     }
   },
   {
     "id": 18,
-    "arabic": "إجمالي الوقت المسموح به لأداء الكاتا وشرح البونكاي هو 5 دقائق.",
+    "arabic": "إجمالى الوقت المسموح به لأداء الكاتا وشرح البونكاى هو ٥ دقائق.",
     "english": "The total time allowed for the Kata & BUNKAI demonstration combined, is 5 minutes.",
     "type": "boolean",
     "options": [
@@ -299,15 +299,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "الوقت الإجمالي لأداء الكاتا والبونكاي معاً هو 5 دقائق.",
+    "explanation": "إجمالي الزمن المسموح للكاتا والبونكاي معاً في مباريات ميداليات الفرق هو 5 دقائق.",
     "reference": {
       "article": "3.5.6",
-      "page": 7
+      "page": "7"
     }
   },
   {
     "id": 19,
-    "arabic": "في منافسات الكاتا لايمكن ثني أكمام جاكت بدلة الكاراتيه.",
+    "arabic": "فى منافسات الكاتا لايمكن ثني أكمام جاكت بدلة الكاراتيه.",
     "english": "In Kata competition the sleeves of the Karate-gi jacket may not be rolled up.",
     "type": "boolean",
     "options": [
@@ -316,10 +316,10 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "لا يسمح بثني أكمام جاكت بدلة الكاراتيه.",
+    "explanation": "لا يجوز ثني أو لف أكمام جاكت بدلة الكاراتيه.",
     "reference": {
-      "article": "2.2.11",
-      "page": 5
+      "article": "2.2.1.11",
+      "page": "5"
     }
   },
   {
@@ -331,17 +331,17 @@
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "مسؤولية المدرب أو اللاعب تسجيل الكاتا قبل كل دور.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "تُسجل الكاتا المختارة لدى المسجلين/العدّائين المعيّنين، وليس بإخطار منضدة التسجيل مباشرة بهذه الصيغة.",
     "reference": {
-      "article": "6.1 / 6.2",
-      "page": 14
+      "article": "6.1-6.2",
+      "page": "14"
     }
   },
   {
     "id": 21,
-    "arabic": "يمكن أن يقل عدد القضاة في الطاقم إلى خمس قضاة في أي منافسة.",
+    "arabic": "يمكن أن يقل عدد القضاة فى الطاقم إلى خمس قضاة فى أى منافسة.",
     "english": "The number of Judges per panel may be reduced to five for any competition.",
     "type": "boolean",
     "options": [
@@ -350,15 +350,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: وفقاً لقانون 2026 (المادة 4.1) يتكون طاقم القضاة من 7 قضاة لكل دور في كل منافسات الاتحاد الدولي الرسمية. تخفيض العدد إلى 5 قضاة لا يحدث إلا في حالة استخدام التحكيم اليدوي بالأعلام عند عدم توفر أو عطل النظام الإلكتروني (المادة 4.9)، وليس كخيار عام لأي منافسة.",
+    "explanation": "العدد الأساسي تحدده المادة الخاصة بطاقم القضاة؛ واستخدام خمسة قضاة مرتبط بحالات محددة وليس بأي بطولة مطلقاً.",
     "reference": {
       "article": "4.1 / 4.9",
-      "page": 10
+      "page": "10"
     }
   },
   {
     "id": 22,
-    "arabic": "يمكن تكرار الكاتا التي تم أداؤها قبل ذلك فقط إذا تم استخدامها لكسر التعادل.",
+    "arabic": "يمكن تكرار الكاتا التى تم أداؤها قبل ذلك فقط إذا تم استخدامها لكسر التعادل.",
     "english": "A previously performed Kata may be repeated only if used as tiebreaker.",
     "type": "boolean",
     "options": [
@@ -367,15 +367,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "يمكن تكرار الكاتا بحد أقصى مرتين في البطولة، وليس فقط لكسر التعادل.",
+    "explanation": "يجوز تكرار الكاتا وفق حدود التكرار الواردة في القانون، وليس فقط عند كسر التعادل.",
     "reference": {
       "article": "5.2.1",
-      "page": 11
+      "page": "11"
     }
   },
   {
     "id": 23,
-    "arabic": "يمكن أن يكون بنطلون بدلة الكاراتيه قصيراً إلى حد ما بحيث يغطي نصف الساق فقط.",
+    "arabic": "يمكن أن يكون بنطلون بدلة الكاراتيه قصيرا إلى حد ما بحيث يغطى نصف الساق فقط.",
     "english": "The Karate-Gi trousers may be slightly shorter so as to only cover half of the shin.",
     "type": "boolean",
     "options": [
@@ -384,15 +384,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "يجب أن يغطي البنطلون ثلثي قصبة الساق، ولا يسمح بثني أرجل البنطلون.",
+    "explanation": "يجب أن يغطي البنطلون ثلثي قصبة الساق على الأقل، ولا يكفي أن يغطي نصفها.",
     "reference": {
-      "article": "2.2.13",
-      "page": 5
+      "article": "2.2.1.12",
+      "page": "5"
     }
   },
   {
     "id": 24,
-    "arabic": "إجمالي الوقت المسموح به لأداء الكاتا هو خمس دقائق.",
+    "arabic": "إجمالى الوقت المسموح به لأداء الكاتا هو خمس دقائق.",
     "english": "The total time allowed for the Kata performance, is five minutes.",
     "type": "boolean",
     "options": [
@@ -401,10 +401,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "الوقت المحدد بـ5 دقائق هو للكاتا والبونكاي معاً، وليس للكاتا فقط.",
+    "explanation": "مدة الخمس دقائق تخص أداء الكاتا والبونكاي معاً في مباريات ميداليات الفرق، وليست زمناً ثابتاً لأداء الكاتا وحدها.",
     "reference": {
       "article": "3.5.6",
-      "page": 7
+      "page": "7"
     }
   },
   {
@@ -416,17 +416,17 @@
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "في حالة 3 لاعبين أو أقل، تؤدى كاتا واحدة لتحديد المراكز.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "عند وجود 3 لاعبين أو أقل يُطبق نظام المجموعة المحدد في الجدول، ولا تؤدى كاتا واحدة فقط لتحديد المراكز الثلاثة.",
     "reference": {
-      "article": "3.6.1",
-      "page": 8
+      "article": "3.7.9",
+      "page": "9"
     }
   },
   {
     "id": 26,
-    "arabic": "لايمكن للقضاة في مباراة الكاتا أن يكون لهم نفس جنسية أي من اللاعبين.",
+    "arabic": "لايمكن للقضاة فى مباراة الكاتا أن يكون لهم نفس جنسية أى من اللاعبين.",
     "english": "The Judges of a Kata bout may not have the same nationality as either of the contestants.",
     "type": "boolean",
     "options": [
@@ -435,15 +435,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "لا يجوز للقضاة أن يكونوا من نفس جنسية أي من المتنافسين.",
+    "explanation": "لا يجوز أن يكون قضاة مباراة الكاتا من جنسية أحد المتنافسين أو من اتحاده الوطني، كما يجب تجنب تضارب المصالح.",
     "reference": {
-      "article": "5.1.2",
-      "page": 10
+      "article": "4.8",
+      "page": "10"
     }
   },
   {
     "id": 27,
-    "arabic": "على الرغم من أن الأربطة والزينة للشعر ممنوعة في الكوميتيه إلا أنها مسموح بها في الكاتا.",
+    "arabic": "على الرغم من أن الأربطة والزينة للشعر ممنوعة فى الكوميتيه إلا أنها مسموح بها فى الكاتا.",
     "english": "Although ribbons and other decorations for the hair are not allowed in kumite, they are permissible in Kata.",
     "type": "boolean",
     "options": [
@@ -452,15 +452,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: قانون الكاتا يمنع أطواق الشعر والمشابك المعدنية والعقود وأي مواد زينة أخرى، ولا يسمح إلا برباط شعر مطاطي غير ظاهر (أو اثنين) لتثبيت ذيل حصان واحد. أي زينة أو ربطة ظاهرة ممنوعة في الكاتا كما هي ممنوعة في الكوميتيه.",
+    "explanation": "الأشرطة والخرز وزينة الشعر ممنوعة في الكاتا أيضاً.",
     "reference": {
       "article": "2.2.6",
-      "page": 5
+      "page": "5"
     }
   },
   {
     "id": 28,
-    "arabic": "في مباريات الميداليات في منافسات الكاتا الجماعي ستؤدي الفرق شرحاً لمعاني الكاتا (بونكاي).",
+    "arabic": "في مباريات الميداليات في منافسات الكاتا الجماعي تؤدي الفرق شرحاً لمعاني الكاتا (بونكاي).",
     "english": "In the bouts for medals in Team Kata competition, teams will perform a demonstration of the meaning of the Kata (BUNKAI).",
     "type": "boolean",
     "options": [
@@ -469,15 +469,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "في مباريات الميداليات للجماعي، يؤدي الفريق البونكاي بعد الكاتا.",
+    "explanation": "في مباريات الميداليات للكاتا الجماعي تؤدي الفرق الكاتا ثم البونكاي.",
     "reference": {
       "article": "3.5.4",
-      "page": 7
+      "page": "7"
     }
   },
   {
     "id": 29,
-    "arabic": "لايمكن تكرار الكاتا في الإقصاء بنظام الدوري.",
+    "arabic": "لايمكن تكرار الكاتا فى الإقصاء بنظام الدورى.",
     "english": "It is not possible to repeat a Kata in the Round-robin elimination system.",
     "type": "boolean",
     "options": [
@@ -486,15 +486,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "يمكن تكرار الكاتا بحد أقصى مرتين في البطولة، ولكن ليس مرتين متتابعتين.",
+    "explanation": "يمكن تكرار الكاتا في دوري المجموعات مع الالتزام بعدم أدائها مرتين متتاليتين وبحد أقصى مرتين في البطولة.",
     "reference": {
       "article": "5.2.1",
-      "page": 11
+      "page": "11"
     }
   },
   {
     "id": 30,
-    "arabic": "للبطولات التي لا تحتسب في تصنيف الإتحاد الدولي للكاراتيه والتأهل للأولمبياد يمكن أن يقل عدد القضاة إلى 5.",
+    "arabic": "للبطولات التي لا تحتسب في تصنيف الاتحاد الدولي للكاراتيه ولا تؤهل للأولمبياد، يمكن أن يقل عدد القضاة إلى 5.",
     "english": "For competitions not counting for WKF World Ranking or Olympic standing, the number of judges may be reduced to 5.",
     "type": "boolean",
     "options": [
@@ -503,15 +503,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: قانون 2026 لا ينص على تخفيض عدد القضاة إلى 5 بسبب عدم احتساب البطولة في التصنيف العالمي أو التأهيل الأولمبي. طاقم القضاة ثابت وهو 7 قضاة (المادة 4.1)، ولا يقل العدد إلى 5 إلا في حالة التحكيم اليدوي بالأعلام عند تعطل النظام الإلكتروني (المادة 4.9).",
+    "explanation": "القانون الحالي لا يربط خفض العدد إلى خمسة بعدم احتساب البطولة في التصنيف؛ الخمسة تُستخدم في حالات محددة كالإقصائيات أو التحكيم اليدوي.",
     "reference": {
       "article": "4.1 / 4.9",
-      "page": 10
+      "page": "10"
     }
   },
   {
     "id": 31,
-    "arabic": "لايمكن أداء الكاتا مرتين متتابعتين في نظام الدوري.",
+    "arabic": "لايمكن أداء الكاتا مرتين متتابعتين فى نظام الدوري.",
     "english": "The same Kata may never be performed twice in a row in the Round-robin system.",
     "type": "boolean",
     "options": [
@@ -520,27 +520,27 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "لا يمكن أداء نفس الكاتا مرتين متتابعتين في نظام الدوري.",
+    "explanation": "لا يجوز أداء الكاتا نفسها في دورين متتاليين.",
     "reference": {
       "article": "5.2.1",
-      "page": 11
+      "page": "11"
     }
   },
   {
     "id": 32,
-    "arabic": "إذا تم طرد فريق تأهل بالفعل إلى النهائيات في نهاية دور الدوري (بقرار شيكاكو لسوء السلوك) فسيتأهل خصمه الذي كان سينافسه في نصف النهائي إلى مباراة النهائي مباشرة (باي) لعدم وجود خصم.",
+    "arabic": "إذا تم طرد فريق تأهل بالفعل إلى النهائيات في نهاية دور الدوري (بقرار شيكاكو لسوء السلوك)، فسيتأهل خصمه الذي كان سينافسه في نصف النهائي إلى مباراة النهائي مباشرة (باي) لعدم وجود خصم.",
     "english": "If an already qualified Team is disqualified for misconduct at the end of the Roundrobin round (SHIKKAKU): The semi-final opponent will access to the final by bye.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "في حالة طرد فريق متأهل، يتأهل خصمه مباشرة إلى النهائي.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "عند شيكاكو بعد التأهل يتقدم الخصم المقرر في أول دور إقصائي إلى الدور التالي بالباي، وليس بالضرورة من نصف النهائي إلى النهائي.",
     "reference": {
-      "article": "3.7.6",
-      "page": 8
+      "article": "3.7.8",
+      "page": "8-9"
     }
   },
   {
@@ -554,15 +554,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "يمكن للاعبات ارتداء تي شيرت أبيض، وليس إجبارياً.",
+    "explanation": "ارتداء القميص الأبيض تحت الجاكت اختياري للاعبات وليس إلزامياً.",
     "reference": {
-      "article": "2.2.8",
-      "page": 5
+      "article": "2.2.1.8",
+      "page": "5"
     }
   },
   {
     "id": 34,
-    "arabic": "يمكن للمتسابقات الإناث إذا كان لهن رغبة في ذلك إرتداء تي شيرت أبيض سادة تحت جاكت بدلة الكاراتيه.",
+    "arabic": "يمكن للمتسابقات الإناث إذا كان لهم رغبة فى ذلك إرتداء تي شيرت أبيض سادة تحت جاكت بدلة الكاراتيه.",
     "english": "Female Athletes can, if they want, wear a plain white T-shirt beneath the Karate jacket.",
     "type": "boolean",
     "options": [
@@ -571,10 +571,10 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يمكن للاعبات الإناث ارتداء تي شيرت أبيض سادة تحت الجاكت.",
+    "explanation": "يجوز للاعبات ارتداء قميص أبيض سادة تحت جاكت الكاراتيه باختيارهن.",
     "reference": {
-      "article": "2.2.8",
-      "page": 5
+      "article": "2.2.1.8",
+      "page": "5"
     }
   },
   {
@@ -588,15 +588,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "ممنوع ارتداء أي ملابس أو معدات غير معتمدة.",
+    "explanation": "يُحظر ارتداء الملابس أو المعدات غير المعتمدة.",
     "reference": {
       "article": "2.2.7",
-      "page": 5
+      "page": "5"
     }
   },
   {
     "id": 36,
-    "arabic": "مسموح في منافسات الكاتا بربط مطاطي غير ظاهر يحفظ الشعر على شكل ذيل حصان.",
+    "arabic": "مسموح فى منافسات الكاتا برباط مطاطى غير ظاهر يحفظ الشعر على شكل ذيل حصان.",
     "english": "A discreet rubber band or ponytail retainer is permitted in Kata competition.",
     "type": "boolean",
     "options": [
@@ -605,15 +605,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يسمح بربطة شعر مطاطية غير ظاهرة على شكل ذيل حصان.",
+    "explanation": "يسمح برباط مطاطي غير ظاهر واحد أو اثنين على ذيل حصان واحد، لذلك السماح الوارد في العبارة صحيح.",
     "reference": {
       "article": "2.2.6",
-      "page": 5
+      "page": "5"
     }
   },
   {
     "id": 37,
-    "arabic": "بساط منطقة منافسات الكوميتيه لايصلح لمنافسات الكاتا.",
+    "arabic": "بساط منطقة منافسات الكوميتيه لا يصلح لمنافسات الكاتا.",
     "english": "The matted Kumite areas are not suitable for Kata competition.",
     "type": "boolean",
     "options": [
@@ -622,10 +622,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "لا يوجد نص يمنع استخدام بساط منطقة الكوميتيه لمنافسات الكاتا؛ الشرط الوحيد المذكور في المادة 1 هو أبعاد البساط (8م×8م) ومنطقة الأمان المحيطة به.",
+    "explanation": "يمكن استخدام منطقة بساط الكوميتيه للكاتا ما دامت مطابقة لمتطلبات المقاس والسلامة.",
     "reference": {
-      "article": "عام (غير منصوص عليه صراحة في هذا القانون)",
-      "page": 3
+      "article": "1.1",
+      "page": "3"
     }
   },
   {
@@ -639,10 +639,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: جاكت بدلة الكاراتيه جزء إجباري من الزي الرسمي المعتمد للاعبين طوال الأداء (المادة 2.2.1)، ولا يوجد نص يسمح بخلعه أثناء أداء الكاتا.",
+    "explanation": "لا يجوز خلع جاكت بدلة الكاراتيه أثناء الأداء.",
     "reference": {
       "article": "2.2.1",
-      "page": 4
+      "page": "4-5"
     }
   },
   {
@@ -656,16 +656,16 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "المؤثرات الصوتية تعاقب بنفس درجة فقدان الإتزان المؤقت.",
+    "explanation": "تُعامل المؤثرات الصوتية والمؤثرات المسرحية كأخطاء شديدة في التقييم، وبمستوى عقوبة فقد الاتزان المؤقت.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.5-5.7.6",
+      "page": "12"
     }
   },
   {
     "id": 40,
-    "arabic": "التغييرات كما تم تعليمها في الأسلوب الخاص باللاعب (Ryu-ha) لن يتم السماح بها.",
-    "english": "Variations as taught by the contestant's style (Ryu-ha) of Karate will not be permitted.",
+    "arabic": "التغيرات كما تم تعليمها فى الأسلوب الخاص باللاعب (Ryu-ha) لن يتم السماح بها.",
+    "english": "Variations as taught by the contestant’s style (Ryu-ha) of Karate will not be permitted.",
     "type": "boolean",
     "options": [
       "صحيح",
@@ -673,10 +673,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "يُسمح بالتغيرات الطفيفة كما تم تعليمها في أسلوب اللاعب.",
+    "explanation": "الاختلافات الطفيفة التي يقررها أسلوب اللاعب (ريو-ها) مسموح بها.",
     "reference": {
       "article": "5.3.2",
-      "page": 11
+      "page": "11"
     }
   },
   {
@@ -688,17 +688,17 @@
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "يجب تسجيل الكاتا المختارة قبل كل دور عند منضدة التسجيل.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "يُبلَّغ المسجل/العدّاء المعيَّن بالكاتا المختارة قبل الدور، وليس منضدة التسجيل مباشرة.",
     "reference": {
       "article": "6.1",
-      "page": 14
+      "page": "14"
     }
   },
   {
     "id": 42,
-    "arabic": "الفريق الذي لايؤدي التحية عند نهاية أداء البونكاي سيتم إقصاؤه.",
+    "arabic": "الفريق الذى لايؤدى التحية عند نهاية أداء البونكاي سيتم إقصاؤه.",
     "english": "A team which does not perform the bow at the completion of the BUNKAI performance will be disqualified.",
     "type": "boolean",
     "options": [
@@ -707,15 +707,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: عدم أداء التحية في نهاية البونكاي (وهي بمثابة تحية نهاية الكاتا للمباريات الجماعية) يعتبر من أسباب الإقصاء وفق المادة 5.8، ولا توجد تحية منفصلة بين الكاتا والبونكاي (المادة 3.5.5) فكلاهما جزء من نفس الأداء.",
+    "explanation": "عدم أداء التحية الختامية بعد البونكاي يؤدي إلى الإقصاء.",
     "reference": {
-      "article": "3.5.5 / 5.8",
-      "page": "7 / 13"
+      "article": "5.8.2 / 3.5.7",
+      "page": "7 / 12"
     }
   },
   {
     "id": 43,
-    "arabic": "عدد الكاتات المطلوبة يعتمد على عدد اللاعبين أو الفرق المسجلة في البطولة.",
+    "arabic": "عدد الكاتات المطلوبة يعتمد على عدد اللاعبين أو الفرق المسجلة فى البطولة.",
     "english": "The number of Kata required is dependent on the number of individual Athletes or teams entered.",
     "type": "boolean",
     "options": [
@@ -724,15 +724,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "عدد الكاتات المطلوبة يعتمد على عدد الأدوار وليس على عدد المشاركين.",
+    "explanation": "عدد الكاتات المطلوبة يتغير تبعاً لعدد المشاركين ونظام الأدوار، مع حد أقصى مقرر.",
     "reference": {
-      "article": "5.2.1",
-      "page": 11
+      "article": "5.2.1 / 3.7.9",
+      "page": "9 / 11"
     }
   },
   {
     "id": 44,
-    "arabic": "إذا تم طرد لاعب تأهل بالفعل إلى النهائيات في نهاية دور الدوري (بقرار شيكاكو لسوء السلوك) فسيتم منح الميدالية البرونزية.",
+    "arabic": "إذا تم طرد لاعب تأهل بالفعل إلى النهائيات في نهاية دور الدوري (بقرار شيكاكو لسوء السلوك)، فسيتم منح الميدالية البرونزية.",
     "english": "If an already qualified Athlete is disqualified for misconduct at the end of the Roundrobin round (SHIKKAKU): the bronze medal will be awarded.",
     "type": "boolean",
     "options": [
@@ -741,10 +741,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "لا تُمنح الميدالية البرونزية تلقائياً عند طرد لاعب متأهل.",
+    "explanation": "لا تُمنح البرونزية تلقائياً للاعب الذي أُقصي بشيكاكو بعد التأهل؛ بل يتقدم خصمه في الإقصائيات بالباي.",
     "reference": {
-      "article": "3.7.7",
-      "page": 8
+      "article": "3.7.8",
+      "page": "8-9"
     }
   },
   {
@@ -758,15 +758,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يتم تقييم الأداء بناءً على جميع المعايير المحددة.",
+    "explanation": "يقيّم القضاة الأداء وفق جميع معايير التقييم المقررة.",
     "reference": {
-      "article": "5.3.1",
-      "page": 11
+      "article": "5.6",
+      "page": "12"
     }
   },
   {
     "id": 46,
-    "arabic": "ليس هناك إختلافات خاصة للاعبين تحت 14 سنة عن القانون الأصلي لتحكيم الكاتا ولكن يمكن أن يتم تقليل قائمة الكاتا للكاتات الأقل صعوبة.",
+    "arabic": "ليس هناك إختلافات خاصة للاعبين تحت 14 سنة عن القانون الأصلى لتحكيم الكاتا ولكن يمكن أن يتم تقليل قائمة الكاتا للكاتات الأقل صعوبة.",
     "english": "There are no specific deviations for those under 14 years of age from the standard rules, but a limitation to the Kata list to less advanced Kata may be used.",
     "type": "boolean",
     "options": [
@@ -775,15 +775,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "توجد قواعد خاصة لمن هم تحت 14 سنة بتقليل قائمة الكاتا.",
+    "explanation": "لا توجد تعديلات خاصة على القانون لمن هم دون 14 سنة، لكن يمكن تقييد قائمة الكاتا إلى كاتات أقل صعوبة.",
     "reference": {
-      "article": "3.9.1 / 5.2.2",
-      "page": "10 / 11"
+      "article": "3.9.1",
+      "page": "10"
     }
   },
   {
     "id": 47,
-    "arabic": "إحداث إصابة خلال أداء البونكاي نتيجة لقلة التحكم في التقنيات يعتبر من الأخطاء.",
+    "arabic": "إحداث إصابة خلال أداء البونكاى نتيجة لقلة التحكم فى التكنيكات يعتبر من الأخطاء.",
     "english": "Causing injury by lack of controlled technique during BUNKAI is considered a foul.",
     "type": "boolean",
     "options": [
@@ -792,15 +792,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "إحداث إصابة بقلة التحكم في البونكاي يعتبر من الأخطاء.",
+    "explanation": "إحداث إصابة بسبب ضعف التحكم أثناء البونكاي يُعد خطأً يؤخذ في التقييم.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.10",
+      "page": "12"
     }
   },
   {
     "id": 48,
-    "arabic": "في مباريات الميداليات لايمكن أن يكون أحد القضاة من نفس جنسية أحد اللاعبين.",
+    "arabic": "فى مباريات الميداليات لايمكن أن يكون أحد القضاة من نفس جنسية أحد من اللاعبين.",
     "english": "For medal bouts, none of the Judges may have the same nationality, as the Athletes.",
     "type": "boolean",
     "options": [
@@ -809,15 +809,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "لا يجوز لأي قاضٍ أن يكون من نفس جنسية أي من المتنافسين.",
+    "explanation": "في مباريات الميداليات لا يجوز أن يكون أي قاضٍ من جنسية أحد اللاعبين أو لديه تضارب مصالح.",
     "reference": {
-      "article": "5.1.2",
-      "page": 10
+      "article": "4.8",
+      "page": "10"
     }
   },
   {
     "id": 49,
-    "arabic": "يقيّم الأداء بدرجة من 5.0 إلى 10.0 بزيادة عشرية بمقدار 0.1.",
+    "arabic": "يُقيَّم الأداء بدرجة من 5.0 إلى 10.0 بزيادة قدرها 0.1.",
     "english": "Performances are given a score using a scale from 5.0 to 10.0 in increments of 0.1.",
     "type": "boolean",
     "options": [
@@ -826,15 +826,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يتم التقييم من 5.0 إلى 10.0 بزيادة 0.1.",
+    "explanation": "تُعطى الدرجات من 5.0 إلى 10.0 بزيادات قدرها 0.1، والإقصاء درجته 0.0.",
     "reference": {
       "article": "5.4.1",
-      "page": 11
+      "page": "11"
     }
   },
   {
     "id": 50,
-    "arabic": "القرعة العشوائية باستخدام العملة هي الإختيار الأول لكسر التعادل.",
+    "arabic": "القرعة العشوائية باستخدام العملة هى الإختيار الأول لكسر التعادل.",
     "english": "Coin toss is the first choice to resolve the ties.",
     "type": "boolean",
     "options": [
@@ -843,15 +843,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "هناك معايير محددة لكسر التعادل، وليست القرعة هي الخيار الأول.",
+    "explanation": "القرعة بالعملة ليست المعيار الأول لكسر التعادل؛ تسبقها معايير الفوز والمواجهة والأصوات والتصنيف بحسب النظام.",
     "reference": {
-      "article": "5.11 / 5.12",
-      "page": 13
+      "article": "5.11",
+      "page": "13"
     }
   },
   {
     "id": 51,
-    "arabic": "هناك 6 طرق لكسر التعادل في الإقصاء بنظام دوري المجموعات المكونة من 4 لاعبين.",
+    "arabic": "هناك ٦ طرق لكسر التعادل فى الإقصاء بنظام دورى المجموعات المكونة من ٤ لاعبين.",
     "english": "There are 6 ways to resolve a tie In Round-robin Elimination System with 4 Athletes.",
     "type": "boolean",
     "options": [
@@ -860,10 +860,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "هناك 5 طرق لكسر التعادل في دوري المجموعات، وليس 6.",
+    "explanation": "كسر التعادل في دوري المجموعات الفردي يتم عبر خمسة معايير مرتبة، وليس ستة.",
     "reference": {
       "article": "5.11",
-      "page": 13
+      "page": "13"
     }
   },
   {
@@ -877,15 +877,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "القوة من معايير التقييم للكاتا والبونكاي.",
+    "explanation": "القوة أحد معايير تقييم كل من الكاتا والبونكاي.",
     "reference": {
-      "article": "5.6",
-      "page": 12
+      "article": "5.6.8",
+      "page": "12"
     }
   },
   {
     "id": 53,
-    "arabic": "هناك 6 طرق لكسر التعادل في نظام الإقصاء وعدد اللاعبين 8.",
+    "arabic": "هناك 6 طرق لكسر التعادل في نظام الإقصاء عندما يكون عدد اللاعبين 8.",
     "english": "There are 6 ways to resolve a tie when having elimination system with 8 Athletes.",
     "type": "boolean",
     "options": [
@@ -894,10 +894,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "هناك 5 طرق لكسر التعادل في نظام الإقصاء، وليس 6.",
+    "explanation": "في نظام الإقصاء يُحسم الفائز بأغلبية أصوات القضاة؛ ولا توجد ست طرق لكسر التعادل كما ورد في العبارة.",
     "reference": {
-      "article": "5.11",
-      "page": 13
+      "article": "5.10.1",
+      "page": "13"
     }
   },
   {
@@ -911,15 +911,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: معايير تقييم الكاتا حسب المادة 5.6 عشرة معايير وهي: الوقفات، التكنيكات، الحركات الانتقالية، التوقيت والمسافة، التحكم، التركيز (الكيميه)، التوافق، القوة، السرعة، الاتزان.",
+    "explanation": "يتضمن تقييم الكاتا عشرة معايير محددة.",
     "reference": {
       "article": "5.6",
-      "page": 12
+      "page": "12"
     }
   },
   {
     "id": 55,
-    "arabic": "الحركات الإنتقالية أحد معايير تقييم الكاتا ولكنها ليست من معايير تقييم البونكاي.",
+    "arabic": "الحركات الانتقالية أحد معايير تقييم الكاتا ولكنها ليست من معايير تقييم البونكاى.",
     "english": "Transitional movement is one of the Criteria for evaluation for Kata Performance but not for BUNKAI.",
     "type": "boolean",
     "options": [
@@ -928,15 +928,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "الحركات الانتقالية من معايير تقييم الكاتا والبونكاي.",
+    "explanation": "الحركات الانتقالية معيار في الكاتا والبونكاي معاً، وليست مقتصرة على الكاتا.",
     "reference": {
       "article": "5.6",
-      "page": 12
+      "page": "12"
     }
   },
   {
     "id": 56,
-    "arabic": "الحركات الإنتقالية والتحكم جزء من معايير تقييم البونكاي.",
+    "arabic": "الحركات الإنتقالية والتحكم جزء من معايير تقييم البونكاى.",
     "english": "In BUNKAI performance, transitional movements and control are part of the evaluation.",
     "type": "boolean",
     "options": [
@@ -945,15 +945,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "الحركات الانتقالية والتحكم جزء من معايير تقييم البونكاي.",
+    "explanation": "الحركات الانتقالية والتحكم من معايير تقييم البونكاي.",
     "reference": {
       "article": "5.6",
-      "page": 12
+      "page": "12"
     }
   },
   {
     "id": 57,
-    "arabic": "القوة والسرعة والإتزان هي بعض معايير التقييم للكاتا والبونكاي.",
+    "arabic": "القوة والسرعة والإتزان هى بعض معايير التقييم للكاتا والبونكاى.",
     "english": "Strength, Speed and Balance are some of the criteria of evaluation for Kata and BUNKAI.",
     "type": "boolean",
     "options": [
@@ -962,15 +962,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "القوة والسرعة والإتزان من معايير التقييم للكاتا والبونكاي.",
+    "explanation": "القوة والسرعة والاتزان معايير مشتركة في تقييم الكاتا والبونكاي.",
     "reference": {
       "article": "5.6",
-      "page": 12
+      "page": "12"
     }
   },
   {
     "id": 58,
-    "arabic": "التظاهر بفقدان الوعي لأكثر من ثانيتين كجزء من أداء البونكاي يعتبر من الأخطاء.",
+    "arabic": "التظاهر بفقدان الوعى لأكثر من ثانيتين كجزء من أداء البونكاي يعتبر من الأخطاء.",
     "english": "Simulated unconsciousness for more than 2 seconds at the time as part of the BUNKAI is considered as foul.",
     "type": "boolean",
     "options": [
@@ -979,15 +979,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "التظاهر بفقدان الوعي لأكثر من ثانيتين يعتبر خطأ.",
+    "explanation": "محاكاة فقد الوعي لأكثر من ثانيتين أثناء البونكاي تُعد خطأً.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.11",
+      "page": "12"
     }
   },
   {
     "id": 59,
-    "arabic": "البونكاي يكون له أهمية مساوية للكاتا نفسها.",
+    "arabic": "البونكاى يكون له أهمية مساوية للكاتا نفسها.",
     "english": "BUNKAI are to be given equal importance as the Kata itself.",
     "type": "boolean",
     "options": [
@@ -996,10 +996,10 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "البونكاي له نفس أهمية الكاتا في التقييم.",
+    "explanation": "يُعطى البونكاي الأهمية نفسها التي تُعطى للكاتا في مباريات الميداليات الجماعية.",
     "reference": {
       "article": "5.4.3",
-      "page": 11
+      "page": "11"
     }
   },
   {
@@ -1013,15 +1013,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "التحية الزائدة قبل بداية الأداء تعتبر من الأخطاء.",
+    "explanation": "التحية الزائدة قبل البدء تُعد من إضاعة الوقت، ولذلك تُحسب خطأً.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.9",
+      "page": "12"
     }
   },
   {
     "id": 61,
-    "arabic": "إحداث إصابة خلال أداء البونكاي نتيجة لقلة التحكم في التقنيات هو من حالات الإقصاء.",
+    "arabic": "إحداث إصابة خلال أداء البونكاى نتيجة لقلة التحكم فى التكنيكات هو من حالات الإقصاء.",
     "english": "Causing injury by lack of controlled technique during BUNKAI is a disqualification.",
     "type": "boolean",
     "options": [
@@ -1030,10 +1030,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: إحداث إصابة بسبب قلة التحكم أثناء البونكاي مذكور ضمن قائمة (الأخطاء) في المادة 5.7 وليس ضمن قائمة أسباب (الإقصاء) في المادة 5.8.",
+    "explanation": "الإصابة الناتجة عن ضعف التحكم في البونكاي خطأ، لكنها ليست سبباً مستقلاً للإقصاء في هذه المادة.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.10",
+      "page": "12"
     }
   },
   {
@@ -1047,15 +1047,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: عدم إعلان اسم الكاتا يعتبر أحد أسباب الإقصاء الصريحة المذكورة في المادة 5.8 (البند 1).",
+    "explanation": "عدم إعلان اسم الكاتا أحد أسباب الإقصاء.",
     "reference": {
-      "article": "5.8",
-      "page": 14
+      "article": "5.8.1",
+      "page": "12"
     }
   },
   {
     "id": 63,
-    "arabic": "النداء على الكاتا الخطأ أو أداء الكاتا الخطأ يؤدي إلى الإقصاء.",
+    "arabic": "النداء على الكاتا الخطأ أو أداء الكاتا الخطأ يؤدى إلى الإقصاء.",
     "english": "Performing the wrong Kata or announcing the wrong Kata leads to disqualification.",
     "type": "boolean",
     "options": [
@@ -1064,15 +1064,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: أداء الكاتا الخطأ أو الإعلان عن كاتا مختلفة عن المسجلة يؤدي إلى الإقصاء وفق المادة 5.8 (البند 1). أما عند تعارض الرقم بالاسم فقط (بدون خطأ أداء) فيُعتمد الرقم المسجل (المادة 6.3).",
+    "explanation": "إعلان كاتا خاطئة أو أداء كاتا غير المسجلة يؤدي إلى الإقصاء.",
     "reference": {
-      "article": "5.8",
-      "page": 14
+      "article": "5.8.1",
+      "page": "12"
     }
   },
   {
     "id": 64,
-    "arabic": "خبط الأرض بالقدم، لطم الصدر، الأذرع أو بدلة الكاراتيه سوف تؤخذ في اعتبار القضاة عند الوصول لقرار.",
+    "arabic": "خبط الأرض بالقدم، ولطم الصدر أو الأذرع أو بدلة الكاراتيه، سوف يؤخذ في اعتبار القضاة عند الوصول إلى قرار.",
     "english": "Stamping the feet, slapping the chest, arms, or Karate-gi, will be taken into account by the Judges when arriving at a decision.",
     "type": "boolean",
     "options": [
@@ -1081,10 +1081,10 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "هذه المؤثرات الصوتية تؤخذ في الاعتبار عند التقييم.",
+    "explanation": "خبط الأرض ولطم الصدر أو الذراعين أو البدلة مؤثرات مسرحية خطيرة تدخل في تقييم القضاة.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.6",
+      "page": "12"
     }
   },
   {
@@ -1098,15 +1098,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: التوقف المؤقت أو التام أثناء أداء الكاتا لعدة ثوانٍ هو أحد أسباب الإقصاء الصريحة (المادة 5.8، البند 4).",
+    "explanation": "التوقف الواضح أو الكامل أثناء الأداء سبب للإقصاء.",
     "reference": {
-      "article": "5.8",
-      "page": 13
+      "article": "5.8.4",
+      "page": "12"
     }
   },
   {
     "id": 66,
-    "arabic": "البونكاي ليس له أهمية مساوية للكاتا نفسها.",
+    "arabic": "البونكاى ليس له أهمية مساوية للكاتا نفسها.",
     "english": "BUNKAI are not to be given equal importance as the Kata itself.",
     "type": "boolean",
     "options": [
@@ -1115,15 +1115,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "البونكاي له نفس أهمية الكاتا في التقييم.",
+    "explanation": "البونكاي له الأهمية نفسها التي للكاتا في مباريات الميداليات الجماعية.",
     "reference": {
       "article": "5.4.3",
-      "page": 11
+      "page": "11"
     }
   },
   {
     "id": 67,
-    "arabic": "يجب بدء الكاتا في مواجهة القضاة.",
+    "arabic": "يجب بدء الكاتا فى مواجهة القضاة.",
     "english": "Kata must start facing the Judges.",
     "type": "boolean",
     "options": [
@@ -1132,15 +1132,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: بداية الكاتا بدون مواجهة القضاة تعتبر من أسباب الإقصاء الصريحة (المادة 5.8، البند 3).",
+    "explanation": "يجب أن تبدأ الكاتا واللاعب أو الفريق مواجه للقضاة.",
     "reference": {
-      "article": "5.8",
-      "page": "7 / 8"
+      "article": "5.8.3",
+      "page": "12"
     }
   },
   {
     "id": 68,
-    "arabic": "إستعمال المؤثرات الصوتية من أى شخص آخر بما فيهم أعضاء الفريق الآخرين يعتبر من الأخطاء.",
+    "arabic": "استعمال مؤثرات صوتية من أي شخص آخر، بما في ذلك أعضاء الفريق الآخرون، يعتبر من الأخطاء.",
     "english": "The use of audible cues from any other person, including other team members is considered a foul.",
     "type": "boolean",
     "options": [
@@ -1149,16 +1149,16 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "المؤثرات الصوتية من الآخرين تعتبر من الأخطاء.",
+    "explanation": "المؤثرات الصوتية من أي شخص، بما في ذلك أعضاء الفريق، تُعد خطأً.",
     "reference": {
-      "article": "5.7.4",
-      "page": 13
+      "article": "5.7.5",
+      "page": "12"
     }
   },
   {
     "id": 69,
     "arabic": "إذا سقط حزام اللاعب تماما خلال أداء الكاتا فسيتم إقصاء اللاعب.",
-    "english": "If the Athlete's belt falls off during the performance of Kata, the competitor will be disqualified.",
+    "english": "If the Athlete’s belt falls off during the performance of Kata, the competitor will be disqualified.",
     "type": "boolean",
     "options": [
       "صحيح",
@@ -1166,15 +1166,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: سقوط الحزام بالكامل أثناء الأداء هو أحد أسباب الإقصاء الصريحة (المادة 5.8، البند 8).",
+    "explanation": "سقوط الحزام تماماً أثناء الأداء يؤدي إلى الإقصاء.",
     "reference": {
-      "article": "5.8",
-      "page": 13
+      "article": "5.8.8",
+      "page": "13"
     }
   },
   {
     "id": 70,
-    "arabic": "عدم إطاعة أوامر القاضي رقم 1 أو أى سوء سلوك آخر يعتبر من الأخطاء.",
+    "arabic": "عدم إطاعة أوامر القاضى رقم ۱ أو أى سوء سلوك آخر يعتبر من الأخطاء.",
     "english": "Failure to follow the instructions of the Judge nr1 or other misconduct is considered a foul.",
     "type": "boolean",
     "options": [
@@ -1183,15 +1183,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: عدم إطاعة أوامر القاضي الرئيسي أو أي إساءة أخرى (شيكاكو) مذكور صراحة ضمن أسباب (الإقصاء) في المادة 5.8، وليس ضمن قائمة (الأخطاء) في المادة 5.7.",
+    "explanation": "عدم طاعة القاضي الرئيسي أو سوء السلوك ليس مجرد خطأ تقييم؛ بل يدخل ضمن أسباب الإقصاء/شيكاكو.",
     "reference": {
-      "article": "5.8",
-      "page": 13
+      "article": "5.8.11",
+      "page": "13"
     }
   },
   {
     "id": 71,
-    "arabic": "عدم إطاعة أوامر القاضي رقم 1 أو أى إساءة أخرى يؤدي إلى الإقصاء.",
+    "arabic": "عدم إطاعة أوامر القاضى رقم ۱ أو أى إساءة أخرى يؤدى إلى الإقصاء.",
     "english": "Failure to follow the instructions of the Judge nr1 or other misconduct leads to disqualification.",
     "type": "boolean",
     "options": [
@@ -1200,15 +1200,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: عدم إطاعة أوامر القاضي الرئيسي أو أي إساءة أخرى (شيكاكو) هو أحد أسباب الإقصاء الصريحة (المادة 5.8، البند 11).",
+    "explanation": "عدم طاعة تعليمات القاضي الرئيسي أو سوء السلوك يؤدي إلى الإقصاء (شيكاكو).",
     "reference": {
-      "article": "5.8",
-      "page": 13
+      "article": "5.8.11",
+      "page": "13"
     }
   },
   {
     "id": 72,
-    "arabic": "الزيادة عن حد الوقت الإجمالي وهو 5 دقائق لأداء الكاتا والبونكاي يعتبر من الأخطاء.",
+    "arabic": "تجاوز الحد الإجمالي للوقت، وهو 5 دقائق لأداء الكاتا والبونكاي، يعتبر من الأخطاء.",
     "english": "Exceeding the total time limit of 5 minutes duration for Kata and BUNKAI is considered a foul.",
     "type": "boolean",
     "options": [
@@ -1217,27 +1217,27 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: تجاوز الوقت الإجمالي المحدد بخمس دقائق لأداء الكاتا والبونكاي مذكور صراحة ضمن أسباب (الإقصاء) في المادة 5.8، وليس ضمن قائمة (الأخطاء) في المادة 5.7.",
+    "explanation": "تجاوز حد الخمس دقائق ليس مجرد خطأ تقييم، بل سبب للإقصاء.",
     "reference": {
-      "article": "5.8",
-      "page": 13
+      "article": "5.8.9",
+      "page": "13"
     }
   },
   {
     "id": 73,
-    "arabic": "في الكاتا الجماعي يجب على أعضاء الفريق الثلاثة بدء الكاتا ونهايتها في نفس الإتجاه وفي مواجهة القضاة.",
+    "arabic": "فى الكاتا الجماعى يجب على أعضاء الفريق الثلاثة بدء الكاتا ونهايتها فى نفس الاتجاه وفى مواجهة القضاة.",
     "english": "In Team Kata, all three team members must start and finish the Kata facing in the same direction and towards the Judges.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: في الكاتا الجماعي يجب أن يبدأ لاعبو الفريق الثلاثة الكاتا بنفس الاتجاه وفي مواجهة القضاة (المادة 3.5.2).",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "يشترط أن يبدأ أعضاء الفريق الثلاثة في الاتجاه نفسه ومواجهين للقضاة؛ ولا يشترط النص أن ينهوا الكاتا في الاتجاه نفسه.",
     "reference": {
       "article": "3.5.2",
-      "page": "7 / 8"
+      "page": "7"
     }
   },
   {
@@ -1251,15 +1251,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "أداء الكاتا يجب أن يعبر عن الواقعية القتالية والتركيز والقوة.",
+    "explanation": "يجب أن يكون الأداء واقعياً قتالياً ويظهر التركيز والقوة والتأثير المحتمل للتكنيكات.",
     "reference": {
-      "article": "5.6",
-      "page": 12
+      "article": "3.1.1",
+      "page": "6"
     }
   },
   {
     "id": 75,
-    "arabic": "إحداث إصابة خلال أداء البونكاي نتيجة لقلة التحكم في التقنيات لايعتبر من الأخطاء.",
+    "arabic": "إحداث إصابة خلال أداء البونكاى نتيجة لقلة التحكم فى التكنيكات لايعتبر من الأخطاء.",
     "english": "Causing injury by lack of controlled technique during BUNKAI is not considered a foul.",
     "type": "boolean",
     "options": [
@@ -1268,15 +1268,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "إحداث إصابة بقلة التحكم في البونكاي يعتبر خطأ.",
+    "explanation": "الإصابة بسبب ضعف التحكم أثناء البونكاي تُعد خطأً.",
     "reference": {
-      "article": "5.7.4",
-      "page": 13
+      "article": "5.7.10",
+      "page": "12"
     }
   },
   {
     "id": 76,
-    "arabic": "فقد الإتزان البسيط لايجب أن يوضع في الإعتبار عند تقييم أداء الكاتا.",
+    "arabic": "فقد الاتزان البسيط لايجب أن يوضع فى الإعتبار عند تقييم أداء الكاتا.",
     "english": "Minor loss of balance must not be considered in the evaluation of the Kata performance.",
     "type": "boolean",
     "options": [
@@ -1285,15 +1285,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "فقد الإتزان البسيط يعتبر خطأ ويؤخذ في الإعتبار.",
+    "explanation": "فقد الاتزان البسيط يجب أن يدخل في تقييم الأداء.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.2",
+      "page": "12"
     }
   },
   {
     "id": 77,
-    "arabic": "الزيادة عن حد الوقت الإجمالي وهو 5 دقائق لأداء الكاتا والبونكاي يؤدي إلى الإقصاء.",
+    "arabic": "الزيادة عن حد الوقت الإجمالي وهو ٥ دقائق لأداء الكاتا والبونكاى يؤدي إلى الإقصاء.",
     "english": "Exceeding the total time limit of 5 minutes duration for Kata and BUNKAI leads to disqualification.",
     "type": "boolean",
     "options": [
@@ -1302,10 +1302,10 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: تجاوز الوقت الإجمالي المحدد بخمس دقائق لأداء الكاتا والبونكاي هو أحد أسباب الإقصاء الصريحة (المادة 5.8، البند 9).",
+    "explanation": "تجاوز إجمالي 5 دقائق للكاتا والبونكاي يؤدي إلى الإقصاء.",
     "reference": {
-      "article": "5.8",
-      "page": 13
+      "article": "5.8.9",
+      "page": "13"
     }
   },
   {
@@ -1319,15 +1319,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "القوة والإتزان والسرعة من معايير تقييم الكاتا.",
+    "explanation": "القوة والسرعة والاتزان من معايير تقييم أداء الكاتا.",
     "reference": {
-      "article": "5.6",
-      "page": 12
+      "article": "3.1.1 / 5.6",
+      "page": "6 / 12"
     }
   },
   {
     "id": 79,
-    "arabic": "فقد الإتزان البسيط يجب أن يوضع في الإعتبار عند تقييم أداء الكاتا.",
+    "arabic": "فقد الاتزان البسيط يجب أن يوضع في الاعتبار عند تقييم أداء الكاتا.",
     "english": "Minor loss of balance must be considered in the evaluation of the Kata performance.",
     "type": "boolean",
     "options": [
@@ -1336,15 +1336,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "فقد الإتزان البسيط يؤخذ في الإعتبار عند التقييم.",
+    "explanation": "فقد الاتزان البسيط من الأخطاء التي يجب مراعاتها عند التقييم.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.2",
+      "page": "12"
     }
   },
   {
     "id": 80,
-    "arabic": "حركة غير متزامنة مثل توصيل تقنية قبل اكتمال حركة الجسم يعتبر من الأخطاء.",
+    "arabic": "حركة غير متزامنة مثل توصيل تكنيك قبل اكتمال حركة الجسم يعتبر من الأخطاء.",
     "english": "Asynchronous movement, such as delivering a technique before the body transition is completed is considered a foul.",
     "type": "boolean",
     "options": [
@@ -1353,15 +1353,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "الحركة غير المتزامنة تعتبر خطأ.",
+    "explanation": "الحركة غير المتزامنة، مثل تنفيذ التكنيك قبل اكتمال انتقال الجسم، تُعد خطأً.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.4",
+      "page": "12"
     }
   },
   {
     "id": 81,
-    "arabic": "التنفس غير الصحيح سوف يؤخذ في اعتبار القضاة عند الوصول لقرار.",
+    "arabic": "التنفس الغير صحيح سوف يؤخذ فى اعتبار القضاة عند الوصول لقرار.",
     "english": "Inappropriate exhalation will be taken into account by the Judges when arriving at a decision.",
     "type": "boolean",
     "options": [
@@ -1370,15 +1370,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "التنفس غير الصحيح يؤخذ في الاعتبار كأحد المؤثرات الصوتية.",
+    "explanation": "التنفس أو الزفير غير الصحيح مؤثر مسرحي خطير يؤخذ في قرار القضاة.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.6",
+      "page": "12"
     }
   },
   {
     "id": 82,
-    "arabic": "في الكاتا الجماعي عدم توحيد الحركة لايعتبر من الأخطاء.",
+    "arabic": "فى الكاتا الجماعي عدم توحيد الحركة لايعتبر من الأخطاء.",
     "english": "In team Kata, failing to do a movement in unison is not considered a foul.",
     "type": "boolean",
     "options": [
@@ -1387,10 +1387,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "عدم توحيد الحركة في الكاتا الجماعي يعتبر خطأ.",
+    "explanation": "عدم توحيد الحركة في الكاتا الجماعي يُعد حركة غير متزامنة وخطأً.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.4",
+      "page": "12"
     }
   },
   {
@@ -1404,15 +1404,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "الأداء غير الصحيح أو غير المكتمل يعتبر خطأ.",
+    "explanation": "أداء حركة بشكل غير صحيح أو غير مكتمل يُعد خطأً.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.3",
+      "page": "12"
     }
   },
   {
     "id": 84,
-    "arabic": "إضاعة الوقت بما في ذلك إطالة الدخول إلى الملعب والتحية الزائدة أو الإنتظار طويلاً قبل بداية الأداء تعتبر من الأخطاء.",
+    "arabic": "إضاعة الوقت بما فى ذلك إطالة الدخول الى الملعب والتحية الزائدة أو الإنتظار طويلا قبل بداية الأداء تعتبر من الأخطاء.",
     "english": "Time wasting, including prolonged marching, excessive bowing or prolonged pause before starting the performance is considered a foul.",
     "type": "boolean",
     "options": [
@@ -1421,27 +1421,27 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "إضاعة الوقت بأي شكل تعتبر من الأخطاء.",
+    "explanation": "إطالة الدخول والتحية أو التأخير قبل البداية تُعد إضاعة للوقت وخطأً.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.9",
+      "page": "12"
     }
   },
   {
     "id": 85,
-    "arabic": "خبط الأرض بالقدم، لطم الصدر، الأذرع أو بدلة الكاراتيه هي مؤثرات صوتية.",
+    "arabic": "خبط الأرض بالقدم، ولطم الصدر أو الأذرع أو بدلة الكاراتيه، هي مؤثرات صوتية.",
     "english": "Stamping the feet, slapping the chest, arms, or Karate-gi, are audible cues.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "هذه الأفعال تعتبر مؤثرات صوتية.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "خبط الأرض ولطم الصدر والذراعين أو البدلة تُصنف مؤثرات مسرحية، وليست هي تعريف المؤثرات الصوتية.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.5-5.7.6",
+      "page": "12"
     }
   },
   {
@@ -1455,27 +1455,27 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "المؤثرات الصوتية تعتبر من الأخطاء.",
+    "explanation": "استخدام المؤثرات الصوتية يُعد خطأً شديداً في التقييم.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.5",
+      "page": "12"
     }
   },
   {
     "id": 87,
-    "arabic": "التنفس غير الصحيح لايعتبر من المؤثرات الصوتية.",
+    "arabic": "التنفس الغير صحيح لايعتبر من المؤثرات الصوتية.",
     "english": "Inappropriate exhalation is not an audible cue.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": false,
-    "correctAnswerArabic": "خطأ",
-    "explanation": "التنفس غير الصحيح يعتبر مؤثراً صوتياً.",
+    "correctAnswer": true,
+    "correctAnswerArabic": "صحيح",
+    "explanation": "الزفير غير الصحيح مصنف ضمن المؤثرات المسرحية، وليس مؤثراً صوتياً بالمعنى المحدد في المادة.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.6",
+      "page": "12"
     }
   },
   {
@@ -1489,15 +1489,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "الأداء غير المكتمل أو خارج الهدف يعتبر خطأ.",
+    "explanation": "عدم استكمال الصد أو توجيه اللكمة خارج الهدف مثالان صريحان للحركة غير الصحيحة أو غير المكتملة.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.3",
+      "page": "12"
     }
   },
   {
     "id": 89,
-    "arabic": "إحداث إصابة خلال أداء البونكاي نتيجة لقلة التحكم في التقنيات مسموح به.",
+    "arabic": "إحداث إصابة خلال أداء البونكاى نتيجة لقلة التحكم فى التكنيكات مسموح به.",
     "english": "Causing injury by lack of controlled technique during BUNKAI is allowed.",
     "type": "boolean",
     "options": [
@@ -1506,15 +1506,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "إحداث إصابة بقلة التحكم في البونكاي يؤدي إلى الإقصاء.",
+    "explanation": "لا يُسمح بإحداث إصابة بسبب ضعف التحكم في البونكاي؛ بل تُسجل كخطأ.",
     "reference": {
-      "article": "5.7.4",
-      "page": 13
+      "article": "5.7.10",
+      "page": "12"
     }
   },
   {
     "id": 90,
-    "arabic": "يجب أن يظهر أعضاء الفريق الجدارة في كل نواحي أداء الكاتا تماماً إلى جانب توحيد الأداء.",
+    "arabic": "يجب أن يظهر أعضاء الفريق الجدارة فى كل نواحى أداء الكاتا تماما الى جانب توحيد الأداء.",
     "english": "The members of the team must demonstrate competence in all aspects of the Kata performance, as well as synchronisation.",
     "type": "boolean",
     "options": [
@@ -1523,15 +1523,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يجب أن يظهر أعضاء الفريق الجدارة والتوحيد في الأداء.",
+    "explanation": "يجب أن يظهر أعضاء الفريق الكفاءة في جميع جوانب الأداء إلى جانب التزامن.",
     "reference": {
       "article": "3.5.3",
-      "page": 7
+      "page": "7"
     }
   },
   {
     "id": 91,
-    "arabic": "الأوامر لبدء أو توقف الأداء ستؤخذ في الإعتبار عند القضاة عند الوصول لقرار.",
+    "arabic": "الأوامر لبدء الأداء أو إيقافه ستؤخذ في اعتبار القضاة عند الوصول إلى قرار.",
     "english": "Commands to start and stop the performance will be taken into account by the Judges when arriving at a decision.",
     "type": "boolean",
     "options": [
@@ -1540,15 +1540,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "الأوامر تؤخذ في الإعتبار عند تقييم الأداء.",
+    "explanation": "أوامر البدء أو الإيقاف مؤثرات صوتية خارجية، ولذلك يأخذها القضاة في الاعتبار كخطأ.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.5",
+      "page": "12"
     }
   },
   {
     "id": 92,
-    "arabic": "إنها مسؤولية رئيس الإتحاد الوطني التأكد من أن الكاتا المسجلة عند منضدة التسجيل مناسبة لهذا الدور تحديداً.",
+    "arabic": "إنها مسؤولية رئيس الإتحاد الوطنى التأكد من أن الكاتا المسجلة عند منضدة التسجيل مناسبة لهذا الدور تحديدا.",
     "english": "It is the responsibility of the President of the National Federation to ensure that the Kata as notified to the score table is appropriate for that particular round.",
     "type": "boolean",
     "options": [
@@ -1557,15 +1557,15 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "المسؤولية تقع على المدرب أو اللاعب، وليس رئيس الاتحاد.",
+    "explanation": "المسؤولية تقع على المدرب أو اللاعب/الفريق عند غياب المدرب، وليست على رئيس الاتحاد الوطني.",
     "reference": {
       "article": "6.2",
-      "page": 14
+      "page": "14"
     }
   },
   {
     "id": 93,
-    "arabic": "بعد سقوط اللاعب أثناء أداء البونكاي ينبغي أن يعدل على ركبة واحدة أو أن يعدل واقفاً خلال ثانيتين.",
+    "arabic": "بعد سقوط اللاعب أثناء أداء البونكاي ينبغى أن يعتدل على ركبة واحدة أو أن يعتدل واقفا خلال ثانيتين.",
     "english": "While performing BUNKAI, after being downed the competitor should either raise to one knee or stand up within 2 seconds.",
     "type": "boolean",
     "options": [
@@ -1574,16 +1574,16 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: التمثيل بفقدان الوعي خلال أداء البونكاي تصرف غير صحيح، وبعد سقوط اللاعب ينبغي أن يعتدل على ركبة واحدة أو يقف خلال ثانيتين (المادة 3.5.8).",
+    "explanation": "بعد إسقاط اللاعب في البونكاي يجب أن ينهض إلى ركبة واحدة أو يقف خلال ثانيتين.",
     "reference": {
       "article": "3.5.8",
-      "page": 13
+      "page": "8"
     }
   },
   {
     "id": 94,
-    "arabic": "في منافسات ذوي الهمم أربطة العين إجبارية لكل لاعبي متحدي الإعاقة البصرية أثناء الأداء.",
-    "english": "In Para-Karate, blindfolds are required for Visually Impaired athletes during performance.",
+    "arabic": "حذف أو إضافة تحركات أو تغيير الأداء بشكل ملحوظ عن طريقته الأصلية يؤدى إلى الإقصاء.",
+    "english": "Omitting or adding movements - or otherwise substantially change the performance from its original form is a disqualification.",
     "type": "boolean",
     "options": [
       "صحيح",
@@ -1591,50 +1591,50 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "أربطة العين إجبارية لمتحدي الإعاقة البصرية في منافسات ذوي الهمم.",
+    "explanation": "حذف الحركات أو إضافتها أو تغيير الشكل الأصلي جوهرياً يؤدي إلى الإقصاء.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "5.8.5",
+      "page": "12"
     }
   },
   {
     "id": 95,
-    "arabic": "في منافسات ذوي الهمم اللاعبين متحدي الإعاقة الذهنية يجب أن يؤدوا نفس الكاتا في كل دور.",
-    "english": "In Para-Karate, Intellectually Impaired athletes must perform the same Kata in each round.",
+    "arabic": "الإحتفال الزائد أو أداء التعبير السياسي أو الديني يعتبر من حالات الإقصاء فى الكوميتيه ولكن لايعتبر كذلك فى الكاتا.",
+    "english": "Excessive celebration and political or religious demonstrations is considered as disqualification for kumite but not for Kata.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": false,
-    "correctAnswerArabic": "خطأ",
-    "explanation": "يمكن للاعبي الإعاقة الذهنية أداء نفس الكاتا، وليس إجبارياً.",
+    "correctAnswer": true,
+    "correctAnswerArabic": "صحيح",
+    "explanation": "في الكاتا يُحظر الاحتفال الزائد والإشارات السياسية أو الدينية وتُفرض غرامة، لكنها ليست حالة إقصاء؛ لذلك الفرق المذكور عن الكوميتيه صحيح.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "5.9.1",
+      "page": "13"
     }
   },
   {
     "id": 96,
-    "arabic": "في منافسات ذوي الهمم، لاعبو الكراسي المتحركة يجب أن يرتدوا حذاء رياضياً أبيض.",
-    "english": "In Para-Karate, wheelchair athletes must wear white sport shoes.",
+    "arabic": "يجب على اللاعب أن ينتظر لإعلان التقييم بعد انتهاء أداء الكاتا.",
+    "english": "The Athlete must wait on the tatami for the announcement of the evaluation at the end of performance.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": false,
-    "correctAnswerArabic": "خطأ",
-    "explanation": "مسموح بارتداء حذاء أبيض، وليس إجبارياً.",
+    "correctAnswer": true,
+    "correctAnswerArabic": "صحيح",
+    "explanation": "بعد التحية النهائية يعود اللاعب أو الفريق إلى نهاية منطقة المنافسات وينتظر إعلان النتيجة على البساط.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "6.10",
+      "page": "14"
     }
   },
   {
     "id": 97,
-    "arabic": "في منافسات ذوي الهمم، نظام التصنيف يستخدم نقاط تعويضية لتعويض إعاقة اللاعب.",
-    "english": "In Para-Karate, the classification system uses extra point compensation for the athlete's impairment.",
+    "arabic": "يمكن للاعب إختيار أى كاتا من قائمة الكاتات الرسمية.",
+    "english": "The Athlete can select any Kata from the official Kata list.",
     "type": "boolean",
     "options": [
       "صحيح",
@@ -1642,16 +1642,16 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "نظام التصنيف في ذوي الهمم يعتمد على نقاط تعويضية حسب الإعاقة.",
+    "explanation": "يجوز اختيار أي كاتا مدرجة في قائمة الكاتا الرسمية مع الالتزام بقواعد التكرار.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "5.1.1",
+      "page": "10"
     }
   },
   {
     "id": 98,
-    "arabic": "في منافسات ذوي الهمم، هناك 3 أقسام رياضية في منافسات الكاتا الفردي.",
-    "english": "In Para-Karate, there are 3 Sport Classes in Individual Kata competition.",
+    "arabic": "الفريق الذى لايؤدى التحية عند بداية ونهاية الأداء سيتم إقصاؤه.",
+    "english": "A team which does not perform the bow at the beginning and completion of the performance will be disqualified.",
     "type": "boolean",
     "options": [
       "صحيح",
@@ -1659,84 +1659,16 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "هناك ثلاثة أقسام رياضية في الكاتا الفردي لذوي الهمم.",
+    "explanation": "عدم التحية في بداية الأداء أو نهايته سبب للإقصاء.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "5.8.2",
+      "page": "12"
     }
   },
   {
     "id": 99,
-    "arabic": "منافسات اللاعبين متحدي الإعاقة البصرية تنقسم إلى فئتين.",
-    "english": "Visually Impaired athletes competition is divided into two categories.",
-    "type": "boolean",
-    "options": [
-      "صحيح",
-      "خطأ"
-    ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "تنقسم منافسات الإعاقة البصرية إلى فئتين.",
-    "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
-    }
-  },
-  {
-    "id": 100,
-    "arabic": "في منافسات ذوي الهمم، لاعبو الإعاقة الذهنية يمكنهم أداء نفس الكاتا في كل دور.",
-    "english": "In Para-Karate, Intellectually Impaired athletes may perform the same Kata in each round.",
-    "type": "boolean",
-    "options": [
-      "صحيح",
-      "خطأ"
-    ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "يمكن للاعبي الإعاقة الذهنية أداء نفس الكاتا في كل دور.",
-    "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
-    }
-  },
-  {
-    "id": 101,
-    "arabic": "في منافسات ذوي الهمم، اللاعبون متحدو الإعاقة البصرية يمكنهم ارتداء أربطة عين عليها شعارات الرعاة.",
-    "english": "In Para-Karate, Visually Impaired athletes may wear blindfolds with sponsor logos.",
-    "type": "boolean",
-    "options": [
-      "صحيح",
-      "خطأ"
-    ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "مسموح بارتداء أربطة عين عليها شعارات لمتحدي الإعاقة البصرية.",
-    "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
-    }
-  },
-  {
-    "id": 102,
-    "arabic": "في منافسات ذوي الهمم، الأحزمة التي تثبت أرجل لاعبي الكراسي المتحركة يجب أن تكون بيضاء وبدون شعارات.",
-    "english": "In Para-Karate, straps to fix the legs of wheelchair athletes must be white and without logos.",
-    "type": "boolean",
-    "options": [
-      "صحيح",
-      "خطأ"
-    ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "يجب أن تكون الأحزمة بيضاء وبدون شعارات.",
-    "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
-    }
-  },
-  {
-    "id": 103,
-    "arabic": "في منافسات ذوي الهمم، الحيوانات الخدمية مسموح لها أن تكون على الحافة الخارجية لمنطقة المنافسات.",
-    "english": "In Para-Karate, service animals are allowed at the external perimeter of the competition area.",
+    "arabic": "إستعمال الأسلحة والمعدات والأدوات التقليدية مسموح به.",
+    "english": "The use of traditional weapons, ancillary equipment or additional apparel is allowed.",
     "type": "boolean",
     "options": [
       "صحيح",
@@ -1744,33 +1676,101 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير مسموح للحيوانات الخدمية على الحافة الخارجية لمنطقة المنافسات.",
+    "explanation": "الأسلحة التقليدية والمعدات أو الملابس الإضافية غير المعتمدة غير مسموح بها.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "2.2.7 / 5.8",
+      "page": "5 / 12"
+    }
+  },
+  {
+    "id": 100,
+    "arabic": "يتم تقييم أداء الكاتا الفردى من تحية بداية الكاتا وحتى تحية نهاية الكاتا.",
+    "english": "The performance in individual Kata is evaluated from the bow starting the Kata until the bow ending the Kata.",
+    "type": "boolean",
+    "options": [
+      "صحيح",
+      "خطأ"
+    ],
+    "correctAnswer": true,
+    "correctAnswerArabic": "صحيح",
+    "explanation": "في الفردي يبدأ التقييم من تحية البداية وينتهي عند تحية نهاية الكاتا.",
+    "reference": {
+      "article": "5.3.1",
+      "page": "11"
+    }
+  },
+  {
+    "id": 101,
+    "arabic": "ارتخاء الحزام ونزوله الى حد المقعدة أثناء الأداء يعتبر من الأخطاء.",
+    "english": "Belt coming loose to the extent that it is coming off the hips during the performance is a foul.",
+    "type": "boolean",
+    "options": [
+      "صحيح",
+      "خطأ"
+    ],
+    "correctAnswer": true,
+    "correctAnswerArabic": "صحيح",
+    "explanation": "ارتخاء الحزام حتى اقترابه من السقوط عن الوركين يُعد خطأً.",
+    "reference": {
+      "article": "5.7.8",
+      "page": "12"
+    }
+  },
+  {
+    "id": 102,
+    "arabic": "ارتخاء الحزام ونزوله الى حد المقعدة أثناء الأداء هو حالة من حالات الإقصاء.",
+    "english": "Belt coming loose to the extent that it is coming off the hips during the performance is a disqualification.",
+    "type": "boolean",
+    "options": [
+      "صحيح",
+      "خطأ"
+    ],
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "ارتخاء الحزام عن الوركين خطأ؛ الإقصاء يكون عند سقوط الحزام تماماً.",
+    "reference": {
+      "article": "5.7.8 / 5.8.8",
+      "page": "12-13"
+    }
+  },
+  {
+    "id": 103,
+    "arabic": "بعد أداء التحية يجب أن يقوم اللاعب بإعلان إسم الكاتا التى سيؤديها بوضوح وبعدها يبدأ الأداء.",
+    "english": "After the bow the Athlete must clearly announce the name of the Kata that is to be performed and then start the performance.",
+    "type": "boolean",
+    "options": [
+      "صحيح",
+      "خطأ"
+    ],
+    "correctAnswer": true,
+    "correctAnswerArabic": "صحيح",
+    "explanation": "بعد التحية يعلن اللاعب بوضوح اسم الكاتا ثم يبدأ الأداء.",
+    "reference": {
+      "article": "6.7",
+      "page": "14"
     }
   },
   {
     "id": 104,
-    "arabic": "في منافسات ذوي الهمم، الحيوانات العلاجية مسموح بها في منطقة المنافسات أو محيطها.",
-    "english": "In Para-Karate, therapy animals are allowed in the competition area or its perimeter.",
+    "arabic": "هناك 9 معايير في كل تقييم للكاتا.",
+    "english": "There are 9 criteria in each Kata evaluation.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "الحيوانات العلاجية مسموح بها في منطقة المنافسات.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "لكل تقييم كاتا عشرة معايير، وليس تسعة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "5.6",
+      "page": "12"
     }
   },
   {
     "id": 105,
-    "arabic": "في منافسات ذوي الهمم، الأطراف الصناعية والعصي والعكازات مسموح بها.",
-    "english": "In Para-Karate, prostheses, canes, crutches are allowed.",
+    "arabic": "بالرغم من أن أداء الإسقاط بحركة المقص (كاني باسامي) على الرقبة ممنوع خلال البونكاي، فإن أداء المقص على الجسم مسموح به.",
+    "english": "Although performing a scissor takedown technique (KANI BASAMI) to the neck area in performing BUNKAI is prohibited, a scissor takedown to the body is permitted.",
     "type": "boolean",
     "options": [
       "صحيح",
@@ -1778,15 +1778,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "مسموح باستخدام الأطراف الصناعية والعصي والعكازات.",
+    "explanation": "يحظر كاني باسامي حول الرقبة في البونكاي، بينما يسمح بأدائه حول الجسم أو الساقين.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 10
+      "article": "3.5.9",
+      "page": "8"
     }
   },
   {
     "id": 106,
-    "arabic": "أداء الإسقاط بحركة المقص (كاتي بسامي) على الرقبة في البونكاي غير ممنوع.",
+    "arabic": "أداء الإسقاط بحركة المقص (كاني باسامي) على الرقبة في البونكاي غير ممنوع.",
     "english": "Performing a scissor takedown technique (KANI BASAMI) to the neck area in BUNKAI is not prohibited.",
     "type": "boolean",
     "options": [
@@ -1795,10 +1795,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: أداء حركة المقص (كاني باسامي) على منطقة الرقبة أثناء البونكاي ممنوع صراحة ويؤدي إلى الإقصاء (المادة 5.8، البند 10)، أما حول الجسم أو الساقين فمسموح به (المادة 3.5.9).",
+    "explanation": "حركة كاني باسامي حول الرقبة محظورة وتدخل ضمن أسباب الإقصاء.",
     "reference": {
-      "article": "3.5.9 / 5.8",
-      "page": 8
+      "article": "3.5.9 / 5.8.10",
+      "page": "8 / 13"
     }
   },
   {
@@ -1812,10 +1812,10 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: يجب على القضاة اعتبار المؤثرات الصوتية أخطاء خطيرة جداً عند تقييم أداء الكاتا (المادة 5.7).",
+    "explanation": "المؤثرات الصوتية تُعد أخطاءً شديدة جداً عند تقييم أداء الكاتا.",
     "reference": {
-      "article": "5.7",
-      "page": 13
+      "article": "5.7.5-5.7.6",
+      "page": "12"
     }
   },
   {
@@ -1827,17 +1827,17 @@
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: الأشخاص المسموح لهم بتقديم الاعتراض هم مدرب اللاعب أو الممثل الرسمي للفريق فقط (المادة 7.1.2).",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "يطلب المدرب نموذج الاعتراض من مدير البساط ويسلمه إليه؛ ثم يحيله مدير البساط إلى لجنة الاعتراضات.",
     "reference": {
-      "article": "7.1.2",
-      "page": 14
+      "article": "7.1.5 / 7.1.7",
+      "page": "15"
     }
   },
   {
     "id": 109,
-    "arabic": "إنها مسؤولية مدير البساط استلام الإعتراض لتجمع لجنة الإعتراضات وإيداع رسم الإعتراض لدى الإتحاد الدولي للكاراتيه إذا تم رفض الإعتراض.",
+    "arabic": "إنها مسؤولية مدير البساط إستلام الإعتراض لتتجمع لجنة الإعتراضات وإيداع رسم الإعتراض لدى الإتحاد الدولى للكاراتيه إذا تم رفض الإعتراض.",
     "english": "It is the responsibility of the Tatami Manager receiving the protest to gather the Appeals Jury and deposit the protest sum with WKF for any declined protest.",
     "type": "boolean",
     "options": [
@@ -1846,15 +1846,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: مسؤولية مدير البساط استلام الاعتراض وتجميع لجنة الاعتراضات وإيداع رسم الاعتراض المرفوض لدى الاتحاد الدولي للكاراتيه (المادة 7.3.1).",
+    "explanation": "مدير البساط مسؤول عن استلام الاعتراض وجمع لجنة الاعتراضات وإيداع رسم الاعتراض المرفوض.",
     "reference": {
       "article": "7.3.1",
-      "page": 15
+      "page": "15"
     }
   },
   {
     "id": 110,
-    "arabic": "كل عضو من أعضاء لجنة الإعتراضات الثلاثة ملزم بإعطاء رأيه في صحة الإعتراض. الإمتناع عن القرار غير مقبول.",
+    "arabic": "كل عضو من أعضاء لجنة الإعتراضات الثلاثة ملزم بإعطاء رأيه فى صحة الإعتراض. الإمتناع عن القرار غير مقبول.",
     "english": "Each of the three members of Appeal Jury is obliged to give his/her verdict as to the validity of the protest. Abstentions are not acceptable.",
     "type": "boolean",
     "options": [
@@ -1863,32 +1863,32 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: كل عضو من أعضاء لجنة الاعتراضات الثلاثة ملزم بإبداء رأيه في صحة الاعتراض، ولا يجوز الامتناع عن التصويت (المادة 7.3.3).",
+    "explanation": "يجب على الأعضاء الثلاثة للجنة الاعتراضات التصويت، ولا يجوز الامتناع.",
     "reference": {
       "article": "7.3.3",
-      "page": 16
+      "page": "16"
     }
   },
   {
     "id": 111,
-    "arabic": "في منافسات ذوي الهمم يمكن وضع الإعلانات في الكراسي المتحركة على مسند الظهر.",
+    "arabic": "فى منافسات ذوي الهمم يمكن وضع الإعلانات فى الكراسي المتحركة على مسند الظهر.",
     "english": "In Para-Karate, advertising in the wheelchairs can be placed on the backrest.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "مسموح بوضع الإعلانات على مسند الظهر في الكراسي المتحركة.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "يُحظر وضع شعارات الرعاة أو الإعلانات على مسند ظهر الكرسي المتحرك.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 10
+      "article": "Para 4.6.11",
+      "page": "15"
     }
   },
   {
     "id": 112,
-    "arabic": "إذا تم قبول الإعتراض فستقوم لجنة الإعتراضات بتكليف أحد أعضائها بإبلاغ المعترض شفوياً بقبول الإعتراض.",
+    "arabic": "إذا تم قبول الإعتراض فستقوم لجنة الإعتراضات بتكليف أحد أعضائها بإبلاغ المعترض شفويا بقبول الإعتراض.",
     "english": "If the protest is accepted, the Appeals Jury will appoint one of its members who will verbally notify the protester that the protest has been accepted.",
     "type": "boolean",
     "options": [
@@ -1897,49 +1897,49 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: عند قبول الاعتراض تقوم اللجنة بتكليف أحد أعضائها لإبلاغ المعترض شفهياً بقبول اعتراضه (المادة 7.4.2).",
+    "explanation": "عند قبول الاعتراض تعين اللجنة عضواً لإبلاغ المعترض شفهياً بقبوله.",
     "reference": {
       "article": "7.4.2",
-      "page": 16
+      "page": "16"
     }
   },
   {
     "id": 113,
-    "arabic": "يوجد ثلاثة أقسام عامة في منافسات الكاراتيه لذوي الهمم: الإعاقة البصرية والإعاقة الذهنية ومستخدمي الكرسي المتحرك.",
-    "english": "There are three general Categories in Para-Karate competitions: Visually-Impaired, Intellectually-Impaired and Wheelchair Users.",
+    "arabic": "فئات منافسات البارا كاراتيه هي: الإعاقة البصرية، والإعاقة الذهنية، ومستخدمو الكراسي المتحركة.",
+    "english": "There are three general Categories in Para-Karate competitions: Visually-Impaired, Intellectually- Impaired and Wheelchair Users.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "هناك ثلاثة أقسام عامة في منافسات ذوي الهمم.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "الفئات الرسمية هي الإعاقة البصرية، والإعاقة الذهنية، والإعاقة البدنية؛ مستخدمو الكراسي المتحركة هم فئة K30 ضمن الإعاقة البدنية، وليس اسم الفئة العامة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 10
+      "article": "Para 2.1.1",
+      "page": "5"
     }
   },
   {
     "id": 114,
-    "arabic": "في منافسات ذوي الهمم الأطراف الصناعية والعصي والعكازات والأدوات الأخرى المستخدمة للدعم الجسدي مسموح بها في منافسات الكاراتيه لذوي الهمم.",
+    "arabic": "فى منافسات ذوي الهمم الأطراف الصناعية والعصى والعكازات والأدوات الأخرى المستخدمة للدعم الجسدى مسموح بها فى منافسات الكاراتيه لذوي الهمم.",
     "english": "In Para-Karate prostheses, canes, crutches, and other equipment used for physical support are allowed in Para-Karate competitions.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "مسموح باستخدام الأطراف الصناعية والعصي والعكازات.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "الأطراف الصناعية والعصي والعكازات وغيرها من وسائل الدعم البدني غير مسموح بها في المنافسة والتصنيف.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 10
+      "article": "Para 4.4.4-4.4.5",
+      "page": "12"
     }
   },
   {
     "id": 115,
-    "arabic": "اللاعبين الذين تم تصنيف إعاقتهم أنها غير مؤهلة للمنافسة أو الذين اعتبروا غير جاهزين للمنافسة أو الذين انتهكوا قوانين المنافسات هم جميعاً غير مؤهلين للمنافسة في منافسات الكاراتيه لذوي الهمم.",
+    "arabic": "اللاعبون الذين صُنفت إعاقتهم على أنها غير مؤهلة للمنافسة، أو الذين اعتُبروا غير ممتثلين، أو الذين انتهكوا قوانين المنافسات، جميعهم غير مؤهلين للمشاركة في منافسات الكاراتيه لذوي الهمم.",
     "english": "Those Athletes whose disabilities have been classified as Ineligible or who have been considered non-compliant or in violation of competition rules are non-eligible to compete in WKF Para-Karate.",
     "type": "boolean",
     "options": [
@@ -1948,27 +1948,27 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "غير المؤهلين أو المخالفين للقوانين لا يمكنهم المنافسة.",
+    "explanation": "من صُنّفت إعاقته غير مؤهلة، أو كان غير ممتثل أو معاقباً لمخالفة القواعد، لا يكون مؤهلاً للمشاركة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 10
+      "article": "Para 2.2 + Classification Rules",
+      "page": "5-6"
     }
   },
   {
     "id": 116,
-    "arabic": "في منافسات ذوي الهمم سيعطي القضاة السبعة درجاتهم بناء على تقييمهم لأداء الكاتا ومستوى إعاقة اللاعب.",
+    "arabic": "فى منافسات ذوي الهمم سيعطى القضاة السبعة درجاتهم بناء على تقييمهم لأداء الكاتا ومستوى إعاقة اللاعب.",
     "english": "In Para-Karate, the seven judges will give their scores based on the assessment of the Kata performance and the level of athlete's impairment.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "التقييم يشمل الأداء ومستوى الإعاقة.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "القضاة السبعة يقيّمون أداء الكاتا؛ أما أثر الإعاقة فيُعالج بدرجة تعويض يحددها طاقم التصنيف، لا القضاة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 10
+      "article": "Para 6.1 / 7.4.2",
+      "page": "20 / 21"
     }
   },
   {
@@ -1980,17 +1980,17 @@
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "منافسات ذوي الهمم تتكون من الكاتا والكوميتيه.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "منافسات البارا كاراتيه الرسمية تتضمن الكاتا الفردي فقط، ولا تتضمن الكوميتيه.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 2.1.1",
+      "page": "5"
     }
   },
   {
     "id": 118,
-    "arabic": "الكراسي المتحركة المزودة بعجلات ضد الإنقلاب مسموح بها في منافسات كاراتيه ذوي الهمم.",
+    "arabic": "الكراسي المتحركة المزودة بعجلات ضد الإنقلاب مسموح بها فى منافسات كاراتيه ذوي الهمم.",
     "english": "Wheelchairs with anti-tip wheels are allowed in Para-Karate competitions.",
     "type": "boolean",
     "options": [
@@ -1999,66 +1999,66 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "الكراسي المزودة بعجلات ضد الإنقلاب مسموح بها.",
+    "explanation": "يسمح بتركيب عجلة أو عجلتين مانعتين للانقلاب خلف الكرسي وفق القياسات المحددة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 4.6.7",
+      "page": "13-14"
     }
   },
   {
     "id": 119,
-    "arabic": "التصنيف في كاراتيه ذوي الهمم يتكون من نظام التعويض عن طريق نقطة إضافية ويعتمد على تأثير الإعاقة الخاصة بكل لاعب على أدائه للكاتا.",
+    "arabic": "التصنيف فى كاراتيه ذوي الهمم يتكون من نظام التعويض عن طريق نقطة إضافية ويعتمد على تأثير الإعاقة الخاصة بكل لاعب على أدائه للكاتا.",
     "english": "Classification in Para-Karate consists of extra point compensation depending on the influence of the particular impairment when performing the Kata.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "نظام التعويض بنقاط إضافية حسب الإعاقة.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "التصنيف لا يقتصر على النقاط الإضافية؛ بل يشمل الفئة الرياضية وحالة التصنيف ودرجة التعويض، وتطبق النقاط على فئات محددة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 2.1.2-2.1.4",
+      "page": "5"
     }
   },
   {
     "id": 120,
-    "arabic": "في منافسات ذوي الهمم الوثائق التشخيصية الطبية التي تثبت أهلية إعاقة اللاعب بالإضافة إلى الاختبارات الوظيفية في المنافسة هي وسائل لتقديم تصنيف أكثر دقة للاعبين.",
-    "english": "In Para-Karate, Medical Diagnostic Forms prove the eligibility of the Athlete's impairment and are, together with functional testing at the competition, a tool to provide a more accurate classification of the Athlete.",
+    "arabic": "نموذج التشخيص الطبي والاختبار الوظيفي أثناء المنافسة يقدمان أداة للتصنيف الدقيق للاعب.",
+    "english": "In Para-Karate, Medical Diagnostic Forms prove the eligibility of the Athlete’s impairment and are, together with functional testing at the competition, a tool to provide a more accurate classification of the Athlete.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "الوثائق الطبية والاختبارات الوظيفية تساعد في التصنيف الدقيق.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "قواعد 2026 تربط الأهلية والتصنيف بعملية التصنيف وقواعدها، ولا تنص على أن النماذج الطبية مع اختبار وظيفي أثناء المنافسة هي أداة التصنيف بهذه الصياغة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 2.2 + Classification Rules",
+      "page": "5-6"
     }
   },
   {
     "id": 121,
-    "arabic": "مسموح لكل لاعبي منافسات الكاراتيه لذوي الهمم ارتداء حذاء رياضي أبيض.",
+    "arabic": "مسموح لكل لاعبى منافسات الكاراتيه لذوي الهمم إرتداء حذاء رياضى أبيض.",
     "english": "All Para Karate competitors are allowed to wear white sport shoes.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "مسموح للجميع ارتداء حذاء رياضي أبيض.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "لا يوجد سماح عام لكل لاعبي البارا كاراتيه بارتداء أحذية رياضية بيضاء؛ التجهيزات المسموحة تختلف حسب الفئة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 4.4.3",
+      "page": "12"
     }
   },
   {
     "id": 122,
-    "arabic": "في منافسات ذوي الهمم في حالة حدوث اختبارات تصنيف إضافية، كشف عن المنشطات، حريق أو أي سبب للإخلاء الطارئ فالمدرب الوطني هو المسؤول المباشر عن الإخلاء الآمن للاعبين.",
+    "arabic": "فى منافسات ذوي الهمم فى حالة حدوث اختبارات تصنيف إضافية، كشف عن المنشطات، حريق أو أى سبب للإخلاء الطارئ فالمدرب الوطني هو المسؤول المباشر عن الإخلاء الآمن للاعبين.",
     "english": "In Para-Karate, in case of additional Classification testing, Doping Control, fire or other need for emergency evacuation, the national coaches are directly responsible for safe removal of the Athletes.",
     "type": "boolean",
     "options": [
@@ -2067,15 +2067,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "المدرب الوطني مسؤول عن الإخلاء الآمن للاعبين.",
+    "explanation": "المدربون الوطنيون مسؤولون مباشرة عن الإخلاء الآمن للاعبين عند الاختبارات الإضافية أو فحص المنشطات أو الطوارئ.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 4.8.5",
+      "page": "16"
     }
   },
   {
     "id": 123,
-    "arabic": "في منافسات ذوي الهمم اللاعبين متحدي الإعاقة الذهنية يمكن لهم أداء نفس الكاتا في كل دور.",
+    "arabic": "فى منافسات ذوي الهمم اللاعبين متحدى الإعاقة الذهنية يمكن لهم أداء نفس الكاتا فى كل دور.",
     "english": "In Para-Karate, contestants from the Intellectually Impaired category may perform the same Kata in each round.",
     "type": "boolean",
     "options": [
@@ -2084,32 +2084,32 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يمكن للاعبي الإعاقة الذهنية أداء نفس الكاتا في كل دور.",
+    "explanation": "يسمح لفئتي الإعاقة الذهنية K21 وK22 بأداء الكاتا نفسها في كل دور.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 7.2.2",
+      "page": "21"
     }
   },
   {
     "id": 124,
-    "arabic": "غير مسموح لحيوانات الخدمة المدربة والمعتمدة لكشف الحالات المرضية المهددة للحياة أن تكون على الحافة الخارجية لمنطقة المنافسات في منافسات ذوي الهمم.",
+    "arabic": "غير مسموح لحيوانات الخدمة المدربة والمعتمدة لكشف الحالات المرضية المهددة للحياة أن تكون على الحافة الخارجية لمنطقة المنافسات فى منافسات ذوي الهمم.",
     "english": "Service animals trained and certified to detect life-threatening conditions are not allowed at the external perimeter of the competition area in Para-Karate.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "غير مسموح للحيوانات الخدمية على الحافة الخارجية.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "يُسمح عند المحيط الخارجي فقط بحيوانات الخدمة المدربة والمعتمدة لاكتشاف الحالات المهددة للحياة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 4.7.4",
+      "page": "15"
     }
   },
   {
     "id": 125,
-    "arabic": "يجب أن تقوم لجنة الإعتراضات بعمل تقرير حالة بسيط عن الإعتراض تصف فيه بدقة ما توصلت إليه وسبب أو أسباب قبول أو رفض الإعتراض.",
+    "arabic": "يجب أن تقوم لجنة الإعتراضات بعمل تقرير حالة بسيط عن الاعتراض تصف فيه بدقة ماتوصلت إليه وسبب أو أسباب قبول أو رفض الإعتراض.",
     "english": "The Appeals Jury must elaborate a simple protest incident report, describing their findings and state their reason(s) for accepting or rejecting the protest.",
     "type": "boolean",
     "options": [
@@ -2118,10 +2118,10 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "صحيح: يجب أن تقدم لجنة الاعتراضات تقريراً مبسطاً عن الحادث يصف نتائج التحقيق وأسباب قبول أو رفض الاعتراض (المادة 7.5.1).",
+    "explanation": "تُعد لجنة الاعتراضات تقريراً مبسطاً يوضح النتائج وأسباب قبول الاعتراض أو رفضه.",
     "reference": {
       "article": "7.5.1",
-      "page": 16
+      "page": "16"
     }
   },
   {
@@ -2135,66 +2135,66 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "غير صحيح: قائمة الكاتا الرسمية في الملحق 1 تحتوي على 102 كاتا مرقمة من 1 إلى 102، وليس 100.",
+    "explanation": "تضم قائمة الكاتا الرسمية 102 كاتا، وليس 100.",
     "reference": {
       "article": "ملحق 1",
-      "page": 19
+      "page": "19"
     }
   },
   {
     "id": 127,
-    "arabic": "كسر التعادلات في منافسات ذوي الهمم ستتبع قانون الإتحاد الدولي للكاراتيه لمنافسات الكاتا.",
+    "arabic": "كسر التعادلات فى منافسات ذوي الهمم ستتبع قانون الاتحاد الدولى للكاراتيه لمنافسات الكاتا.",
     "english": "Resolution for ties in Para-Karate will follow the WKF Kata Competition Rules.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "تتبع منافسات ذوي الهمم قانون الكاتا في كسر التعادلات.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "للبارا كاراتيه تسلسل خاص لكسر التعادل في المادة 7.7، فلا يُحال الأمر ببساطة إلى قواعد الكاتا العامة.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 7.7",
+      "page": "22"
     }
   },
   {
     "id": 128,
-    "arabic": "في منافسات ذوي الهمم الحيوانات العلاجية أو الحيوانات التي تقدم الدعم المعنوي مسموح بها في منطقة المنافسات أو محيطها.",
+    "arabic": "في منافسات ذوي الهمم، الحيوانات العلاجية أو حيوانات الدعم المعنوي مسموح بها في منطقة المنافسات أو محيطها.",
     "english": "In Para-Karate, therapy animals or emotional-support animals are allowed in the competition area or its perimeter.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "الحيوانات العلاجية مسموح بها في منطقة المنافسات.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "حيوانات العلاج أو الدعم العاطفي غير مسموح بها داخل منطقة المنافسة أو محيطها.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "Para 4.7.5",
+      "page": "15"
     }
   },
   {
     "id": 129,
-    "arabic": "في منافسات ذوي الهمم مسموح للاعبين متحدي الإعاقة البصرية ارتداء أربطة عين عليها شعارات أو علامات من الرعاة الرسميين أو من المصنعين.",
+    "arabic": "فى منافسات ذوي الهمم مسموح للاعبين متحدى الإعاقة البصرية إرتداء أربطة عين عليها شعارات أو علامات من الرعاة الرسميين أو من المصنعين.",
     "english": "In Para-Karate, it is allowed for Athletes of Visually Impaired Classes to wear blindfolds with logos or markings from sponsors or manufacturers.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "مسموح بارتداء أربطة عين عليها شعارات لمتحدي الإعاقة البصرية.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "يجب أن تكون عصابات/نظارات حجب الرؤية داكنة ومن دون شعارات للرعاة أو المصنعين.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "Para 4.5.4",
+      "page": "13"
     }
   },
   {
     "id": 130,
-    "arabic": "الأحزمة التي تثبت أرجل اللاعبين في الكراسي المتحركة يجب أن تكون بيضاء اللون وبدون أي شعار.",
+    "arabic": "الأحزمة التى تثبت أرجل اللاعبين فى الكراسي المتحركة يجب أن تكون بيضاء اللون وبدون أى شعار.",
     "english": "The straps to fix the legs of wheelchair Athletes in Para-Karate must be of white color and without logos.",
     "type": "boolean",
     "options": [
@@ -2203,44 +2203,44 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يجب أن تكون الأحزمة بيضاء وبدون شعارات.",
+    "explanation": "يجب أن تكون أربطة تثبيت ساقي لاعب الكرسي المتحرك بيضاء ومن دون شعارات.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "Para 4.6.5",
+      "page": "13"
     }
   },
   {
     "id": 131,
-    "arabic": "في منافسات ذوي الهمم نظام التعويض باستخدام نقاط تعويضية يجب أن يعطيه طاقم القضاة لتأثير إعاقة اللاعب الخاصة به.",
+    "arabic": "فى منافسات ذوي الهمم نظام التعويض باستخدام نقاط تعويضية يجب أن يعطيه طاقم القضاة لتأثير إعاقة اللاعب الخاصة به.",
     "english": "In Para-Karate, score compensation system by means of Extra Points, must be given by the judging panel to the influence of his or her particular impairment.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "نظام التعويض بنقاط إضافية حسب الإعاقة.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "درجة التعويض يحددها طاقم التصنيف ثم تضاف إلى درجات القضاة؛ ولا يمنحها طاقم التحكيم.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "Para 2.1.4 / 7.4.2",
+      "page": "5 / 21"
     }
   },
   {
     "id": 132,
-    "arabic": "هناك ثلاثة أقسام رياضية في منافسات الكاتا الفردي لذوي الهمم.",
+    "arabic": "هناك ثلاثة أقسام رياضية فى منافسات الكاتا الفردي لذوي الهمم.",
     "english": "There are three Sport Classes in Individual Para-Karate Kata Competition.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "هناك ثلاثة أقسام رياضية في الكاتا الفردي لذوي الهمم.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "توجد أربع فئات رياضية أساسية لكل جنس: K10 وK21 وK22 وK30؛ ولذلك ليست ثلاث فئات رياضية فقط.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "Para 2.2",
+      "page": "5-6"
     }
   },
   {
@@ -2252,34 +2252,34 @@
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "تنقسم منافسات الإعاقة البصرية إلى فئتين.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "فئة الإعاقة البصرية الرسمية هي K10 لكل جنس، وليست فئتين منفصلتين في المنافسات الدولية الرسمية.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "Para 2.1.1 / 2.2",
+      "page": "5-6"
     }
   },
   {
     "id": 134,
-    "arabic": "الأقسام الرياضية للناشئين والأشبال موصى بها لتطوير كاراتيه ذوي الهمم.",
+    "arabic": "يوصى بفئات منافسات للناشئين والأشبال لتطوير البارا كاراتيه.",
     "english": "Juniors/cadets Sport Classes are recommended for Para-Karate development.",
     "type": "boolean",
     "options": [
       "صحيح",
       "خطأ"
     ],
-    "correctAnswer": true,
-    "correctAnswerArabic": "صحيح",
-    "explanation": "موصى بها لتطوير كاراتيه ذوي الهمم.",
+    "correctAnswer": false,
+    "correctAnswerArabic": "خطأ",
+    "explanation": "بطولات العالم للبارا كاراتيه في قواعد 2026 تُقام لفئات الكبار فقط. وتذكر القواعد لمسابقات تحت 16 سنة إمكان تقييد قائمة الكاتا، لكنها لا تنص على توصية مستقلة بفئات الناشئين أو الأشبال.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "Para 2.3.2 / 5.7",
+      "page": "6 / 19"
     }
   },
   {
     "id": 135,
-    "arabic": "في منافسات ذوي الهمم أربطة العين إجبارية لكل لاعبي متحدي الإعاقة البصرية أثناء الأداء.",
+    "arabic": "فى منافسات ذوي الهمم أربطة العين إجبارية لكل لاعبي متحدى الإعاقة البصرية أثناء الأداء.",
     "english": "In Para-Karate competitions, blindfolds are required for all Visually Impaired Athletes during the performance.",
     "type": "boolean",
     "options": [
@@ -2288,15 +2288,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "أربطة العين إجبارية لمتحدي الإعاقة البصرية.",
+    "explanation": "ارتداء وسيلة حجب الرؤية المعتمدة إلزامي لجميع لاعبي فئة الإعاقة البصرية أثناء الأداء.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "Para 2.2 / 4.5.3",
+      "page": "5-6 / 12"
     }
   },
   {
     "id": 136,
-    "arabic": "سيؤدي لاعبو متحدي الإعاقة الذهنية الكاتا في منافسات ذوي الهمم من وضع الوقوف.",
+    "arabic": "يؤدي لاعبو الإعاقة الذهنية الكاتا في منافسات ذوي الهمم من وضع الوقوف.",
     "english": "Intellectual impaired Athletes, in Para-Karate, will perform the Kata standing up.",
     "type": "boolean",
     "options": [
@@ -2305,15 +2305,15 @@
     ],
     "correctAnswer": true,
     "correctAnswerArabic": "صحيح",
-    "explanation": "يؤدي لاعبو الإعاقة الذهنية الكاتا من وضع الوقوف.",
+    "explanation": "لاعبو فئات الإعاقة الذهنية يؤدون الكاتا من وضع الوقوف.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 12
+      "article": "Para 2.2",
+      "page": "5-6"
     }
   },
   {
     "id": 137,
-    "arabic": "لايمكن لمتحدي الإعاقة الذهنية في منافسات ذوي الهمم تكرار الكاتا.",
+    "arabic": "لا يمكن للاعبي الإعاقة الذهنية في منافسات ذوي الهمم تكرار الكاتا.",
     "english": "Intellectual impaired Athletes, in Para-Karate, cannot repeat the Kata.",
     "type": "boolean",
     "options": [
@@ -2322,10 +2322,10 @@
     ],
     "correctAnswer": false,
     "correctAnswerArabic": "خطأ",
-    "explanation": "يمكن للاعبي الإعاقة الذهنية أداء نفس الكاتا في كل دور.",
+    "explanation": "يسمح للاعبي الإعاقة الذهنية K21 وK22 بتكرار الكاتا نفسها في كل دور.",
     "reference": {
-      "article": "لائحة كاراتيه ذوي الهمم (غير واردة في قانون الكاتا 2026 المرفق - راجع اللائحة الخاصة بذوي الهمم الصادرة عن الاتحاد الدولي للكاراتيه)",
-      "page": 11
+      "article": "Para 7.2.2",
+      "page": "21"
     }
   }
 ]
