@@ -344,7 +344,7 @@ function finishExam() {
             <p style="margin-bottom:20px; font-size:15px; color:var(--muted-foreground);">
                 ${percentage >= 60 ? "أحسنت! لقد نجحت في الامتحان." : "للأسف، لم تحقق النجاح. حاول مرة أخرى."}
             </p>
-            <button id="restartExam" style="background:var(--gold); color:var(--gold-foreground); padding:12px 24px; border-radius:var(--radius); font-size:14px; font-weight:700; border:none; cursor:pointer; display:inline-flex; align-items:center; gap:8px; transition:all .3s ease; box-shadow:var(--shadow-gold);">
+            <button id="restartExam" style="background:var(--gold); color:#ffffff; padding:12px 24px; border-radius:var(--radius); font-size:14px; font-weight:700; border:none; cursor:pointer; display:inline-flex; align-items:center; gap:8px; transition:all .3s ease; box-shadow:var(--shadow-gold);">
                 <i class="fa-solid fa-rotate-right"></i>
                 إعادة الامتحان
             </button>
