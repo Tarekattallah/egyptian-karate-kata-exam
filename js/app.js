@@ -2,6 +2,10 @@ let questions = [];
 let currentQuestion = 0;
 let userAnswers = {};
 let examFinished = false;
+let examMode = 'practice';
+let timerInterval = null;
+let timeRemaining = 900; // 15 minutes in seconds
+let examStartedAt = null;
 
 async function loadQuestions() {
     try {
@@ -11,10 +15,6 @@ async function loadQuestions() {
         }
         questions = await response.json();
         console.log("Questions Loaded:", questions.length);
-        buildPalette();
-        showQuestion();
-        updateStats();
-        startTimer();
     } catch (error) {
         console.error(error);
         const main = document.querySelector(".main-content");
@@ -29,6 +29,51 @@ async function loadQuestions() {
             `;
         }
     }
+}
+
+function startExam(mode) {
+    examMode = mode;
+    document.getElementById('modeOverlay').style.display = 'none';
+    document.getElementById('appContainer').style.display = 'flex';
+
+    // Reset state
+    currentQuestion = 0;
+    userAnswers = {};
+    examFinished = false;
+    examStartedAt = new Date().toISOString();
+
+    if (mode === 'real') {
+        // Select 30 random questions from the pool
+        const shuffled = [...questions];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        questions = shuffled.slice(0, 30);
+
+        // Show timer
+        document.getElementById('timerBox').classList.remove('hidden');
+        document.getElementById('examModeLabel').textContent = 'امتحان فعلي';
+
+        // Hide correct/wrong statistics during exam
+        document.getElementById('correctStat').style.display = 'none';
+        document.getElementById('wrongStat').style.display = 'none';
+
+        // Start timer
+        timeRemaining = 900;
+        startTimer();
+    } else {
+        document.getElementById('examModeLabel').textContent = 'امتحان تجريبي';
+        document.getElementById('timerBox').classList.add('hidden');
+
+        // Show correct/wrong statistics
+        document.getElementById('correctStat').style.display = 'flex';
+        document.getElementById('wrongStat').style.display = 'flex';
+    }
+
+    buildPalette();
+    showQuestion();
+    updateStats();
 }
 
 function buildPalette() {
@@ -49,11 +94,15 @@ function buildPalette() {
 function updatePalette() {
     const buttons = document.querySelectorAll("#questionPalette button");
     buttons.forEach((btn, idx) => {
-        btn.classList.remove("current", "correct", "wrong", "unanswered");
+        btn.classList.remove("current", "correct", "wrong", "unanswered", "answered");
         if (idx === currentQuestion) {
             btn.classList.add("current");
         } else if (userAnswers[idx] !== undefined) {
-            btn.classList.add(userAnswers[idx] === questions[idx].correctAnswer ? "correct" : "wrong");
+            if (examMode === 'practice') {
+                btn.classList.add(userAnswers[idx] === questions[idx].correctAnswer ? "correct" : "wrong");
+            } else {
+                btn.classList.add("answered");
+            }
         } else {
             btn.classList.add("unanswered");
         }
@@ -85,8 +134,13 @@ function showQuestion() {
 
     if (userAnswers[currentQuestion] !== undefined) {
         const selected = document.querySelector(`.answer-card[data-answer="${userAnswers[currentQuestion]}"]`);
-        if (selected) selected.classList.add("selected");
-        showFeedback(question, userAnswers[currentQuestion]);
+        if (selected) {
+            selected.classList.add("selected");
+            if (examMode === 'practice') {
+                selected.classList.add(userAnswers[currentQuestion] === question.correctAnswer ? "correct" : "wrong");
+                showFeedback(question, userAnswers[currentQuestion]);
+            }
+        }
     }
 
     updateStats();
@@ -136,11 +190,16 @@ function selectAnswer(answer) {
         const val = card.getAttribute("data-answer") === "true";
         if (val === answer) {
             card.classList.add("selected");
-            card.classList.add(answer === question.correctAnswer ? "correct" : "wrong");
+            if (examMode === 'practice') {
+                card.classList.add(answer === question.correctAnswer ? "correct" : "wrong");
+            }
         }
     });
 
-    showFeedback(question, answer);
+    if (examMode === 'practice') {
+        showFeedback(question, answer);
+    }
+
     updateStats();
     updatePalette();
 }
@@ -193,10 +252,42 @@ function previousQuestion() {
     goToQuestion(currentQuestion - 1);
 }
 
+function startTimer() {
+    updateTimerDisplay();
+    timerInterval = setInterval(() => {
+        timeRemaining--;
+        updateTimerDisplay();
+        if (timeRemaining <= 0) {
+            clearInterval(timerInterval);
+            timerInterval = null;
+            finishExam();
+        }
+    }, 1000);
+}
+
+function updateTimerDisplay() {
+    const minutes = Math.floor(timeRemaining / 60);
+    const seconds = timeRemaining % 60;
+    document.getElementById('timerDisplay').textContent =
+        `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    const timerBox = document.getElementById('timerBox');
+    if (timeRemaining <= 60) {
+        timerBox.classList.add('timer-warning');
+    } else {
+        timerBox.classList.remove('timer-warning');
+    }
+}
+
 function finishExam() {
     if (examFinished) return;
     examFinished = true;
-    stopTimer();
+
+    // Stop timer
+    if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
 
     let correct = 0;
     let wrong = 0;
@@ -210,31 +301,50 @@ function finishExam() {
     const total = questions.length;
     const percentage = Math.round((correct / total) * 100);
 
+    // ===== Send result to parent platform (if embedded in iframe) =====
+    try {
+        window.parent.postMessage({
+            type: "EXAM_COMPLETE",
+            score: correct,
+            wrong: wrong,
+            totalQuestions: total,
+            percentage: percentage,
+            passed: percentage >= 60,
+            examType: "kata",
+            examMode: examMode,
+            startedAt: examStartedAt,
+            completedAt: new Date().toISOString()
+        }, "*");
+    } catch (e) {
+        // Silently fail if not in an iframe / cross-origin issue
+        console.log("Exam result sent to parent platform.");
+    }
+
     const main = document.querySelector(".main-content");
     main.innerHTML = `
-        <div class="question-card" style="text-align:center; padding:28px;">
-            <h2 style="font-size:22px; margin-bottom:20px; color:var(--primary); font-weight:800;">انتهى الامتحان</h2>
+        <div class="question-card" style="text-align:center; padding:28px; background:var(--gradient-hero); color:var(--exam-foreground); border:1px solid var(--exam-border);">
+            <h2 style="font-size:22px; margin-bottom:20px; color:var(--exam-foreground); font-weight:800;">انتهى الامتحان</h2>
             <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap; margin-bottom:20px;">
-                <div class="stat success" style="flex:1; min-width:100px; padding:14px;">
+                <div class="stat success" style="flex:1; min-width:100px; padding:14px; background:rgba(34,197,94,0.15); border:1px solid rgba(255,255,255,0.12);">
                     <i class="fa-solid fa-circle-check"></i>
-                    <span>صحيحة</span>
-                    <h3>${correct}</h3>
+                    <span style="color:rgba(255,255,255,0.7);">صحيحة</span>
+                    <h3 style="color:var(--success);">${correct}</h3>
                 </div>
-                <div class="stat danger" style="flex:1; min-width:100px; padding:14px;">
+                <div class="stat danger" style="flex:1; min-width:100px; padding:14px; background:rgba(239,68,68,0.15); border:1px solid rgba(255,255,255,0.12);">
                     <i class="fa-solid fa-circle-xmark"></i>
-                    <span>خاطئة</span>
-                    <h3>${wrong}</h3>
+                    <span style="color:rgba(255,255,255,0.7);">خاطئة</span>
+                    <h3 style="color:var(--danger);">${wrong}</h3>
                 </div>
-                <div class="stat warning" style="flex:1; min-width:100px; padding:14px;">
+                <div class="stat warning" style="flex:1; min-width:100px; padding:14px; background:rgba(245,158,11,0.15); border:1px solid rgba(255,255,255,0.12);">
                     <i class="fa-solid fa-circle"></i>
-                    <span>النسبة</span>
-                    <h3>${percentage}%</h3>
+                    <span style="color:rgba(255,255,255,0.7);">النسبة</span>
+                    <h3 style="color:var(--gold);">${percentage}%</h3>
                 </div>
             </div>
-            <p style="margin-bottom:20px; font-size:15px; color:var(--gray500);">
+            <p style="margin-bottom:20px; font-size:15px; color:rgba(255,255,255,0.7);">
                 ${percentage >= 60 ? "أحسنت! لقد نجحت في الامتحان." : "للأسف، لم تحقق النجاح. حاول مرة أخرى."}
             </p>
-            <button id="restartExam" style="background:var(--primary); color:#fff; padding:12px 24px; border-radius:10px; font-size:14px; font-weight:700; border:none; cursor:pointer; display:inline-flex; align-items:center; gap:8px; transition:all .3s ease; box-shadow: 0 2px 8px rgba(15,23,42,.08);">
+            <button id="restartExam" style="background:var(--gold); color:var(--gold-foreground); padding:12px 24px; border-radius:var(--radius); font-size:14px; font-weight:700; border:none; cursor:pointer; display:inline-flex; align-items:center; gap:8px; transition:all .3s ease; box-shadow:var(--shadow-gold);">
                 <i class="fa-solid fa-rotate-right"></i>
                 إعادة الامتحان
             </button>
@@ -242,6 +352,9 @@ function finishExam() {
     `;
 
     document.getElementById("finishExam").style.display = "none";
+    document.getElementById("timerBox").classList.add("hidden");
+    document.getElementById("progressSection").style.display = "none";
+    document.querySelector(".palette-section").style.display = "none";
 
     document.getElementById("restartExam").addEventListener("click", restartExam);
 }
@@ -268,6 +381,59 @@ document.addEventListener("DOMContentLoaded", () => {
     if (prevBtn) prevBtn.addEventListener("click", previousQuestion);
     if (nextBtn) nextBtn.addEventListener("click", nextQuestion);
     if (finishBtn) finishBtn.addEventListener("click", finishExam);
+
+    // ========== Keyboard Navigation (Arrow Keys) ==========
+    document.addEventListener("keydown", (e) => {
+        // Only navigate if the app container is visible (exam started)
+        const appContainer = document.getElementById("appContainer");
+        if (!appContainer || appContainer.style.display !== "flex") return;
+
+        if (e.key === "ArrowRight" && !examFinished) {
+            // Right arrow = next question (Arabic RTL)
+            e.preventDefault();
+            nextQuestion();
+        } else if (e.key === "ArrowLeft" && !examFinished) {
+            // Left arrow = previous question (Arabic RTL)
+            e.preventDefault();
+            previousQuestion();
+        }
+    });
+
+    // ========== Touch Swipe Navigation (Mobile) ==========
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const swipeThreshold = 50; // minimum px distance for swipe
+
+    const mainContent = document.querySelector(".main-content");
+    if (mainContent) {
+        mainContent.addEventListener("touchstart", (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        mainContent.addEventListener("touchend", (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, { passive: true });
+    }
+
+    function handleSwipe() {
+        const appContainer = document.getElementById("appContainer");
+        if (!appContainer || appContainer.style.display !== "flex") return;
+        if (examFinished) return;
+
+        const diff = touchStartX - touchEndX;
+        const absDiff = Math.abs(diff);
+
+        if (absDiff < swipeThreshold) return;
+
+        if (diff > 0) {
+            // Swipe left → next question (Arabic RTL)
+            nextQuestion();
+        } else {
+            // Swipe right → previous question (Arabic RTL)
+            previousQuestion();
+        }
+    }
 });
 
 loadQuestions();

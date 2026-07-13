@@ -2,6 +2,61 @@
    RESPONSIVE
 ============================================ */
 
+/* =========================
+   Mode Overlay Responsive
+========================= */
+
+@media (max-width:576px) {
+    .mode-card {
+        padding: 32px 24px;
+        border-radius: 20px;
+    }
+
+    .mode-logo img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .mode-card h1 {
+        font-size: 24px;
+    }
+
+    .mode-btn {
+        padding: 18px 16px;
+        font-size: 16px;
+    }
+
+    .mode-btn i {
+        font-size: 24px;
+    }
+
+    .mode-btn small {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:400px) {
+    .mode-card {
+        padding: 24px 16px;
+    }
+
+    .mode-card h1 {
+        font-size: 20px;
+    }
+
+    .mode-btn {
+        padding: 16px 14px;
+        font-size: 14px;
+    }
+
+    .mode-btn i {
+        font-size: 20px;
+    }
+
+    .mode-btn small {
+        font-size: 11px;
+    }
+}
 
 /* =========================
    1400px
@@ -102,18 +157,10 @@
         font-size: 22px;
     }
 
-    .timer-card {
-        width: 100%;
-        justify-content: center;
-    }
 
-    #finishExam {
-        width: 100%;
-        justify-content: center;
-    }
 
     .progress-section {
-        padding: 18px;
+        padding: 14px;
     }
 
     .question-card {
@@ -172,38 +219,39 @@
         font-size: 12px;
     }
 
-    .timer-card {
-        padding: 10px 14px;
-    }
-
-    .timer-card h3 {
-        font-size: 14px;
-    }
-
     #finishExam {
         padding: 12px 18px;
         font-size: 13px;
     }
 
+    .timer-box {
+        padding: 8px 14px;
+        font-size: 15px;
+    }
+
+    .timer-box i {
+        font-size: 15px;
+    }
+
     .progress-section {
-        padding: 16px;
+        padding: 14px;
         border-radius: 14px;
     }
 
     .progress-top h2 {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     #progressPercent {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .stat i {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .stat h3 {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .question-card {
@@ -276,6 +324,10 @@
         font-size: 13px;
     }
 
+    .question-palette button.answered {
+        opacity: 1;
+    }
+
 }
 
 
@@ -298,12 +350,8 @@
         font-size: 18px;
     }
 
-    .timer-card h3 {
-        font-size: 13px;
-    }
-
     .progress-section {
-        padding: 14px;
+        padding: 10px;
     }
 
     .question-card {
