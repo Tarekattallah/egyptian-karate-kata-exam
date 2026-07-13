@@ -45,7 +45,7 @@ img {
 
 
 /* ============================================
-   VARIABLES — Design System
+   VARIABLES — Design System (shadcn/ui)
 ============================================ */
 
 :root {
@@ -73,21 +73,19 @@ img {
     --accent-foreground: #0F172A;
     --input: #e2e8f0;
     --radius: 0.85rem;
+    --radius-sm: 0.5rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.25rem;
     --gradient-hero: linear-gradient(135deg, oklch(0.18 0.05 265) 0%, oklch(0.24 0.06 265) 100%);
     --gradient-gold: linear-gradient(135deg, oklch(0.82 0.16 78) 0%, oklch(0.72 0.17 65) 100%);
     --shadow-soft: 0 10px 30px -12px rgba(0, 0, 0, 0.15);
     --shadow-gold: 0 10px 40px -12px rgba(245, 158, 11, 0.45);
-    --transition: .3s;
-    --exam-card: #0F172A;
-    --exam-foreground: #ffffff;
-    --exam-muted: rgba(255,255,255,0.1);
-    --exam-muted-foreground: rgba(255,255,255,0.7);
-    --exam-border: rgba(255,255,255,0.12);
+    --transition: .3s ease;
 }
 
 
 /* ============================================
-   MODE OVERLAY
+   MODE OVERLAY (Start Screen)
 ============================================ */
 
 .mode-overlay {
@@ -107,7 +105,7 @@ img {
 
 .mode-card {
     background: var(--card);
-    border-radius: calc(var(--radius) + 0.5rem);
+    border-radius: var(--radius-xl);
     padding: 48px 40px;
     max-width: 480px;
     width: 100%;
@@ -223,7 +221,7 @@ img {
 
 
 /* ============================================
-   HEADER (Exam — Dark Gradient)
+   HEADER (Dark Gradient — like platform)
 ============================================ */
 
 .header {
@@ -232,11 +230,11 @@ img {
     align-items: center;
     background: var(--gradient-hero);
     padding: 18px 26px;
-    border-radius: var(--radius);
+    border-radius: var(--radius-lg);
     box-shadow: var(--shadow-soft);
-    border: 1px solid var(--exam-border);
+    border: 1px solid rgba(255,255,255,0.12);
     margin-bottom: 20px;
-    color: var(--exam-foreground);
+    color: #ffffff;
 }
 
 .logo-box {
@@ -255,14 +253,14 @@ img {
 
 .logo-box .title h1 {
     font-size: 26px;
-    color: var(--exam-foreground);
+    color: #ffffff;
     font-weight: 800;
     letter-spacing: -0.3px;
     font-family: "Playfair Display", "Cairo", serif;
 }
 
 .logo-box .title span {
-    color: var(--exam-muted-foreground);
+    color: rgba(255,255,255,0.7);
     font-size: 14px;
     font-weight: 500;
 }
@@ -279,8 +277,8 @@ img {
 ============================================ */
 
 #finishExam {
-    background: var(--destructive);
-    color: var(--danger-foreground);
+    background: var(--gold);
+    color: var(--gold-foreground);
     padding: 14px 24px;
     border-radius: var(--radius);
     font-size: 15px;
@@ -289,12 +287,12 @@ img {
     align-items: center;
     gap: 8px;
     transition: all var(--transition);
-    box-shadow: 0 2px 8px rgba(239, 68, 68, 0.15);
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
 }
 
 #finishExam:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(239, 68, 68, 0.22);
+    box-shadow: 0 8px 20px rgba(245, 158, 11, 0.4);
 }
 
 
@@ -306,11 +304,11 @@ img {
     display: flex;
     align-items: center;
     gap: 8px;
-    background: var(--exam-muted);
+    background: rgba(255,255,255,0.1);
     padding: 10px 18px;
     border-radius: var(--radius);
-    border: 1px solid var(--exam-border);
-    color: var(--exam-foreground);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: #ffffff;
     font-weight: 700;
     font-size: 18px;
     direction: ltr;
@@ -343,17 +341,17 @@ img {
 
 
 /* ============================================
-   PROGRESS SECTION (Dark Gradient)
+   PROGRESS SECTION (White Card)
 ============================================ */
 
 .progress-section {
-    background: var(--gradient-hero);
-    border-radius: var(--radius);
-    padding: 14px 18px;
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    padding: 18px 22px;
     box-shadow: var(--shadow-soft);
-    border: 1px solid var(--exam-border);
+    border: 1px solid var(--border);
     margin-bottom: 10px;
-    color: var(--exam-foreground);
+    color: var(--card-foreground);
 }
 
 .progress-top {
@@ -365,7 +363,7 @@ img {
 
 .progress-top h2 {
     font-size: 16px;
-    color: var(--exam-foreground);
+    color: var(--card-foreground);
     font-weight: 700;
 }
 
@@ -377,8 +375,8 @@ img {
 
 .progress-bar {
     width: 100%;
-    height: 7px;
-    background: var(--exam-muted);
+    height: 10px;
+    background: var(--border);
     border-radius: 50px;
     overflow: hidden;
 }
@@ -388,31 +386,32 @@ img {
     height: 100%;
     background: var(--gradient-gold);
     border-radius: 50px;
+    box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
     transition: width .5s ease;
 }
 
 
 /* ============================================
-   STATISTICS (Dark Gradient)
+   STATISTICS (White Card)
 ============================================ */
 
 .statistics {
     display: flex;
-    gap: 10px;
+    gap: 14px;
     margin-top: 10px;
 }
 
 .stat {
     flex: 1;
-    background: var(--exam-muted);
+    background: var(--muted);
     border-radius: var(--radius);
-    padding: 12px;
+    padding: 14px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all var(--transition);
-    border: 1px solid var(--exam-border);
+    border: 1px solid var(--border);
 }
 
 .stat i {
@@ -421,7 +420,7 @@ img {
 }
 
 .stat span {
-    color: var(--exam-muted-foreground);
+    color: var(--muted-foreground);
     margin-bottom: 4px;
     font-size: 12px;
     font-weight: 500;
@@ -433,7 +432,8 @@ img {
 }
 
 .success {
-    background: rgba(34, 197, 94, 0.15);
+    background: rgba(34, 197, 94, 0.08);
+    border-color: rgba(34, 197, 94, 0.2);
 }
 
 .success i {
@@ -445,7 +445,8 @@ img {
 }
 
 .danger {
-    background: rgba(239, 68, 68, 0.15);
+    background: rgba(239, 68, 68, 0.08);
+    border-color: rgba(239, 68, 68, 0.2);
 }
 
 .danger i {
@@ -457,7 +458,8 @@ img {
 }
 
 .warning {
-    background: rgba(245, 158, 11, 0.15);
+    background: rgba(245, 158, 11, 0.08);
+    border-color: rgba(245, 158, 11, 0.2);
 }
 
 .warning h3 {
@@ -466,17 +468,17 @@ img {
 
 
 /* ============================================
-   PALETTE SECTION (Dark Gradient)
+   PALETTE SECTION (White Card)
 ============================================ */
 
 .palette-section {
-    background: var(--gradient-hero);
-    border-radius: var(--radius);
+    background: var(--card);
+    border-radius: var(--radius-lg);
     padding: 18px 22px;
     box-shadow: var(--shadow-soft);
-    border: 1px solid var(--exam-border);
+    border: 1px solid var(--border);
     margin-bottom: 20px;
-    color: var(--exam-foreground);
+    color: var(--card-foreground);
 }
 
 .palette-header {
@@ -488,13 +490,13 @@ img {
 
 .palette-header h3 {
     font-size: 18px;
-    color: var(--exam-foreground);
+    color: var(--card-foreground);
     font-weight: 700;
 }
 
 .palette-info {
     font-size: 14px;
-    color: var(--exam-muted-foreground);
+    color: var(--muted-foreground);
     font-weight: 600;
 }
 
@@ -509,7 +511,7 @@ img {
 }
 
 .palette-scroll::-webkit-scrollbar-thumb {
-    background: var(--exam-border);
+    background: var(--border);
     border-radius: 50px;
 }
 
@@ -523,9 +525,9 @@ img {
 .question-palette button {
     width: 42px;
     height: 42px;
-    border-radius: var(--radius);
-    background: var(--exam-muted);
-    color: var(--exam-foreground);
+    border-radius: var(--radius-sm);
+    background: var(--muted);
+    color: var(--card-foreground);
     font-weight: 700;
     font-size: 14px;
     transition: all .25s ease;
@@ -535,12 +537,12 @@ img {
 
 .question-palette button:hover {
     transform: scale(1.08);
-    background: rgba(255,255,255,0.2);
+    background: var(--border);
 }
 
 .question-palette button.current {
     background: var(--gold);
-    color: var(--gold-foreground);
+    color: #ffffff;
     border-color: transparent;
     box-shadow: var(--shadow-gold);
 }
@@ -558,15 +560,15 @@ img {
 }
 
 .question-palette button.unanswered {
-    background: rgba(255,255,255,0.08);
-    color: var(--exam-muted-foreground);
+    background: var(--border);
+    color: var(--muted-foreground);
     border-color: transparent;
 }
 
 .question-palette button.answered {
-    background: rgba(255,255,255,0.25);
-    color: var(--exam-foreground);
-    border-color: transparent;
+    background: rgba(245, 158, 11, 0.15);
+    color: #b45309;
+    border-color: rgba(245, 158, 11, 0.3);
     opacity: 0.85;
 }
 
@@ -584,16 +586,16 @@ img {
 
 
 /* ============================================
-   QUESTION CARD (Dark Gradient)
+   QUESTION CARD (White Card)
 ============================================ */
 
 .question-card {
-    background: var(--gradient-hero);
-    border-radius: var(--radius);
+    background: var(--card);
+    border-radius: var(--radius-lg);
     padding: 28px;
     box-shadow: var(--shadow-soft);
-    border: 1px solid var(--exam-border);
-    color: var(--exam-foreground);
+    border: 1px solid var(--border);
+    color: var(--card-foreground);
 }
 
 .question-header {
@@ -604,13 +606,13 @@ img {
 }
 
 #questionNumber {
-    background: var(--exam-muted);
-    color: var(--exam-foreground);
+    background: rgba(245, 158, 11, 0.1);
+    color: #b45309;
     padding: 7px 16px;
     border-radius: 50px;
     font-size: 14px;
     font-weight: 700;
-    border: 1px solid var(--exam-border);
+    border: 1px solid rgba(245, 158, 11, 0.2);
 }
 
 .question-badge {
@@ -621,18 +623,23 @@ img {
 }
 
 .question-badge.unanswered {
-    background: var(--exam-muted);
-    color: var(--exam-muted-foreground);
+    background: var(--muted);
+    color: var(--muted-foreground);
 }
 
 .question-badge.correct {
-    background: rgba(34, 197, 94, 0.2);
-    color: #86efac;
+    background: rgba(34, 197, 94, 0.1);
+    color: var(--success);
 }
 
 .question-badge.wrong {
-    background: rgba(239, 68, 68, 0.2);
-    color: #fca5a5;
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--danger);
+}
+
+.question-badge.answered {
+    background: rgba(245, 158, 11, 0.12);
+    color: #b45309;
 }
 
 .question-body {
@@ -642,7 +649,7 @@ img {
 .question-body h2 {
     font-size: 26px;
     line-height: 1.8;
-    color: var(--exam-foreground);
+    color: var(--card-foreground);
     margin-bottom: 20px;
     font-weight: 800;
     font-family: "Playfair Display", "Cairo", serif;
@@ -650,11 +657,11 @@ img {
 
 .question-body p {
     font-size: 17px;
-    color: var(--exam-muted-foreground);
+    color: var(--muted-foreground);
     line-height: 1.9;
     direction: ltr;
     text-align: left;
-    border-top: 1px dashed var(--exam-border);
+    border-top: 1px dashed var(--border);
     padding-top: 18px;
     font-weight: 500;
 }
@@ -672,8 +679,8 @@ img {
 }
 
 .answer-card {
-    background: var(--exam-muted);
-    border: 2px solid var(--exam-border);
+    background: var(--card);
+    border: 2px solid var(--border);
     border-radius: var(--radius);
     padding: 22px;
     display: flex;
@@ -683,34 +690,33 @@ img {
     font-size: 20px;
     font-weight: 700;
     transition: all var(--transition);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    color: var(--exam-foreground);
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
+    color: var(--card-foreground);
 }
 
 .answer-card:hover:not(.selected):not(.correct):not(.wrong) {
     transform: translateY(-3px);
     border-color: var(--gold);
-    box-shadow: var(--shadow-gold);
-    background: rgba(255,255,255,0.15);
+    box-shadow: var(--shadow-soft);
 }
 
 .answer-card.selected {
     border-color: var(--gold);
-    background: rgba(255,255,255,0.2);
-    box-shadow: var(--shadow-gold);
-    color: var(--exam-foreground);
+    background: rgba(245, 158, 11, 0.06);
+    box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.15);
+    color: var(--card-foreground);
 }
 
 .answer-card.correct {
-    background: rgba(34, 197, 94, 0.2);
+    background: rgba(34, 197, 94, 0.08);
     border-color: var(--success);
-    color: #86efac;
+    color: var(--success);
 }
 
 .answer-card.wrong {
-    background: rgba(239, 68, 68, 0.2);
+    background: rgba(239, 68, 68, 0.08);
     border-color: var(--danger);
-    color: #fca5a5;
+    color: var(--danger);
 }
 
 
@@ -722,7 +728,7 @@ img {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    border: 2.5px solid var(--exam-border);
+    border: 2.5px solid var(--border);
     transition: all var(--transition);
     position: relative;
     flex-shrink: 0;
@@ -767,16 +773,16 @@ img {
 
 
 /* ============================================
-   FEEDBACK (Dark Gradient)
+   FEEDBACK CARD (White Card)
 ============================================ */
 
 .feedback {
-    background: var(--exam-muted);
+    background: var(--card);
     border-radius: var(--radius);
     padding: 24px;
     box-shadow: var(--shadow-soft);
-    border: 1px solid var(--exam-border);
-    color: var(--exam-foreground);
+    border: 1px solid var(--border);
+    color: var(--card-foreground);
 }
 
 .feedback.hidden {
@@ -825,36 +831,35 @@ img {
 }
 
 .reference {
-    background: rgba(255,255,255,0.08);
+    background: var(--muted);
     padding: 16px;
     border-radius: var(--radius);
-    border: 1px solid var(--exam-border);
+    border: 1px solid var(--border);
 }
 
 
 /* ============================================
-   FOOTER (Dark Gradient)
+   FOOTER (White Card)
 ============================================ */
 
 .footer {
-    background: var(--gradient-hero);
-    border-radius: var(--radius);
+    background: var(--card);
+    border-radius: var(--radius-lg);
     padding: 24px;
     box-shadow: var(--shadow-soft);
-    border: 1px solid var(--exam-border);
+    border: 1px solid var(--border);
     text-align: center;
     margin-top: auto;
-    color: var(--exam-foreground);
 }
 
 .footer-content p {
-    color: var(--exam-muted-foreground);
+    color: var(--muted-foreground);
     font-size: 14px;
     margin-bottom: 6px;
 }
 
 .footer-name {
-    color: var(--exam-foreground);
+    color: var(--card-foreground);
     font-weight: 700;
     font-size: 15px;
     margin-top: 8px;
@@ -862,20 +867,20 @@ img {
 
 
 /* ============================================
-   NAVIGATION (Dark Gradient)
+   NAVIGATION (White Card)
 ============================================ */
 
 .navigation {
-    background: var(--gradient-hero);
+    background: var(--card);
     border-radius: var(--radius);
     box-shadow: var(--shadow-soft);
-    border: 1px solid var(--exam-border);
+    border: 1px solid var(--border);
     padding: 16px 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    color: var(--exam-foreground);
+    color: var(--card-foreground);
 }
 
 .navigation button {
@@ -889,15 +894,15 @@ img {
     align-items: center;
     gap: 8px;
     transition: all var(--transition);
-    box-shadow: var(--shadow-gold);
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.2);
     min-width: 120px;
     justify-content: center;
 }
 
 .navigation button:hover:not(:disabled) {
-    background: #d97706;
+    opacity: 0.9;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(245, 158, 11, 0.35);
+    box-shadow: var(--shadow-gold);
 }
 
 .navigation button:disabled {
@@ -908,7 +913,7 @@ img {
 .counter {
     font-size: 17px;
     font-weight: 700;
-    color: var(--exam-foreground);
+    color: var(--card-foreground);
     white-space: nowrap;
 }
 

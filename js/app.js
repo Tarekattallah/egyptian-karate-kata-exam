@@ -322,26 +322,26 @@ function finishExam() {
 
     const main = document.querySelector(".main-content");
     main.innerHTML = `
-        <div class="question-card" style="text-align:center; padding:28px; background:var(--gradient-hero); color:var(--exam-foreground); border:1px solid var(--exam-border);">
-            <h2 style="font-size:22px; margin-bottom:20px; color:var(--exam-foreground); font-weight:800;">انتهى الامتحان</h2>
+        <div class="question-card" style="text-align:center; padding:28px;">
+            <h2 style="font-size:22px; margin-bottom:20px; color:var(--card-foreground); font-weight:800;">انتهى الامتحان</h2>
             <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap; margin-bottom:20px;">
-                <div class="stat success" style="flex:1; min-width:100px; padding:14px; background:rgba(34,197,94,0.15); border:1px solid rgba(255,255,255,0.12);">
+                <div class="stat success" style="flex:1; min-width:100px; padding:14px;">
                     <i class="fa-solid fa-circle-check"></i>
-                    <span style="color:rgba(255,255,255,0.7);">صحيحة</span>
-                    <h3 style="color:var(--success);">${correct}</h3>
+                    <span>صحيحة</span>
+                    <h3>${correct}</h3>
                 </div>
-                <div class="stat danger" style="flex:1; min-width:100px; padding:14px; background:rgba(239,68,68,0.15); border:1px solid rgba(255,255,255,0.12);">
+                <div class="stat danger" style="flex:1; min-width:100px; padding:14px;">
                     <i class="fa-solid fa-circle-xmark"></i>
-                    <span style="color:rgba(255,255,255,0.7);">خاطئة</span>
-                    <h3 style="color:var(--danger);">${wrong}</h3>
+                    <span>خاطئة</span>
+                    <h3>${wrong}</h3>
                 </div>
-                <div class="stat warning" style="flex:1; min-width:100px; padding:14px; background:rgba(245,158,11,0.15); border:1px solid rgba(255,255,255,0.12);">
+                <div class="stat warning" style="flex:1; min-width:100px; padding:14px;">
                     <i class="fa-solid fa-circle"></i>
-                    <span style="color:rgba(255,255,255,0.7);">النسبة</span>
-                    <h3 style="color:var(--gold);">${percentage}%</h3>
+                    <span>النسبة</span>
+                    <h3>${percentage}%</h3>
                 </div>
             </div>
-            <p style="margin-bottom:20px; font-size:15px; color:rgba(255,255,255,0.7);">
+            <p style="margin-bottom:20px; font-size:15px; color:var(--muted-foreground);">
                 ${percentage >= 60 ? "أحسنت! لقد نجحت في الامتحان." : "للأسف، لم تحقق النجاح. حاول مرة أخرى."}
             </p>
             <button id="restartExam" style="background:var(--gold); color:var(--gold-foreground); padding:12px 24px; border-radius:var(--radius); font-size:14px; font-weight:700; border:none; cursor:pointer; display:inline-flex; align-items:center; gap:8px; transition:all .3s ease; box-shadow:var(--shadow-gold);">
